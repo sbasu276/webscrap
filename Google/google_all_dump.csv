@@ -1,0 +1,437 @@
+COUNTDOWN_INVALID_DATE_FORMAT,Invalid date argument in countdown function.
+COUNTDOWN_DATE_IN_PAST,Countdown end date is in the past.
+COUNTDOWN_INVALID_LOCALE,Invalid locale string in countdown function.
+COUNTDOWN_INVALID_START_DAYS_BEFORE,Days-before argument to countdown function is not positive.
+AD_CUSTOMIZERS_NOT_SUPPORTED_FOR_AD_TYPE,Ad customizers are not supported for ad type.
+APPROXIMATELY_TOO_LONG,Estimating character sizes the string is too long.
+APPROXIMATELY_TOO_SHORT,Estimating character sizes the string is too short.
+BAD_SNIPPET,There is a problem with the snippet.
+CANNOT_SET_BUSINESS_NAME_IF_URL_SET,business name and url cannot be set at the same time
+CANNOT_SET_FIELD,The specified field is incompatible with this ad's type or settings.
+CANNOT_SET_FIELD_WITH_ORIGIN_AD_ID_SET,Cannot set field when originAdId is set.
+CANNOT_SET_URL,Cannot specify a url for the ad type
+CANNOT_SET_WITHOUT_FINAL_URLS,Cannot specify a tracking or mobile url without also setting final urls
+CANNOT_SET_WITH_FINAL_URLS,Cannot specify a legacy url and a final url simultaneously
+CANNOT_SET_WITH_TRACKING_URL_TEMPLATE,Cannot specify a legacy url and a tracking url template simultaneously in a DSA.
+CUSTOMER_NOT_APPROVED_MOBILEADS,Customer is not approved for mobile ads.
+CUSTOMER_NOT_APPROVED_THIRDPARTY_ADS,Customer is not approved for 3PAS richmedia ads.
+CUSTOMER_NOT_APPROVED_THIRDPARTY_REDIRECT_ADS,Customer is not approved for 3PAS redirect richmedia (Ad Exchange) ads.
+CUSTOMER_NOT_ELIGIBLE,Not an eligible customer
+CUSTOMER_NOT_ELIGIBLE_FOR_UPDATING_BEACON_URL,Customer is not eligible for updating beacon url
+DIMENSION_ALREADY_IN_UNION,There already exists an ad with the same dimensions in the union.
+DIMENSION_MUST_BE_SET,Ad's dimension must be set before setting union dimension.
+DIMENSION_NOT_IN_UNION,Ad's dimension must be included in the union dimensions.
+DISPLAY_URL_CANNOT_BE_SPECIFIED,Display Url cannot be specified (applies to Ad Exchange Ads)
+DOMESTIC_PHONE_NUMBER_FORMAT,"Telephone number contains invalid characters or invalid format. Please re-enter your number using digits (0-9), dashes (-), and parentheses only."
+EMERGENCY_PHONE_NUMBER,Emergency telephone numbers are not allowed. Please enter a valid domestic phone number to connect customers to your business.
+EMPTY_FIELD,A required field was not specified or is an empty string.
+FEED_ATTRIBUTE_MUST_HAVE_MAPPING_FOR_TYPE_ID,A feed attribute referenced in an ad customizer tag is not in the ad customizer mapping for the feed.
+FEED_ATTRIBUTE_MAPPING_TYPE_MISMATCH,The ad customizer field mapping for the feed attribute does not match the expected field type.
+ILLEGAL_AD_CUSTOMIZER_TAG_USE,The use of ad customizer tags in the ad text is disallowed. Details in trigger.
+INCONSISTENT_DIMENSIONS,The dimensions of the ad are specified or derived in multiple ways and are not consistent.
+INCONSISTENT_STATUS_IN_TEMPLATE_UNION,The status cannot differ among template ads of the same union.
+INCORRECT_LENGTH,The length of the string is not valid.
+INELIGIBLE_FOR_UPGRADE,The ad is ineligible for upgrade.
+INVALID_AD_ADDRESS_CAMPAIGN_TARGET,User cannot create mobile ad for countries targeted in specified campaign.
+INVALID_AD_TYPE,Invalid Ad type. A specific type of Ad is required.
+INVALID_ATTRIBUTES_FOR_MOBILE_IMAGE,"Headline, description or phone cannot be present when creating mobile image ad."
+INVALID_ATTRIBUTES_FOR_MOBILE_TEXT,Image cannot be present when creating mobile text ad.
+INVALID_CHARACTER_FOR_URL,Invalid character in URL.
+INVALID_COUNTRY_CODE,Creative's country code is not valid.
+INVALID_DSA_URL_TAG,Invalid use of Dynamic Search Ads tags ({lpurl} etc.)
+INVALID_INPUT,An input error whose real reason was not properly mapped (should not happen).
+INVALID_MARKUP_LANGUAGE,An invalid markup language was entered.
+INVALID_MOBILE_CARRIER,An invalid mobile carrier was entered.
+INVALID_MOBILE_CARRIER_TARGET,Specified mobile carriers target a country not targeted by the campaign.
+INVALID_NUMBER_OF_ELEMENTS,Wrong number of elements for given element type
+INVALID_PHONE_NUMBER_FORMAT,The format of the telephone number is incorrect. Please re-enter the number using the correct format.
+INVALID_RICH_MEDIA_CERTIFIED_VENDOR_FORMAT_ID,The certified vendor format id is incorrect.
+INVALID_TEMPLATE_DATA,The template ad data contains validation errors.
+INVALID_TEMPLATE_ELEMENT_FIELD_TYPE,The template field doesn't have have the correct type.
+INVALID_TEMPLATE_ID,Invalid template id.
+LINE_TOO_WIDE,"After substituting replacement strings, the line is too wide."
+MARKUP_LANGUAGES_PRESENT,When entering a markup language the Destination URL must be entered.
+MISSING_AD_CUSTOMIZER_MAPPING,The feed referenced must have ad customizer mapping to be used in a customizer tag.
+MISSING_ADDRESS_COMPONENT,Missing address component in template element address field.
+MISSING_ADVERTISEMENT_NAME,An ad name must be entered.
+MISSING_BUSINESS_NAME,Business name must be entered.
+MISSING_DESCRIPTION1,Description (line 2) must be entered.
+MISSING_DESCRIPTION2,Description (line 3) must be entered.
+MISSING_DESTINATION_URL,A destination URL must be entered.
+MISSING_DESTINATION_URL_TAG,The destination url must contain at least one tag (e.g. {lpurl})
+MISSING_DIMENSION,A valid dimension must be specified for this ad.
+MISSING_DISPLAY_URL,A display URL must be entered.
+MISSING_HEADLINE,Headline must be entered.
+MISSING_HEIGHT,A height must be entered.
+MISSING_IMAGE,An image must be entered.
+MISSING_MARKUP_LANGUAGES,The markup language in which your site is written must be entered.
+MISSING_MOBILE_CARRIER,A mobile carrier must be entered.
+MISSING_PHONE,Phone number must be entered.
+MISSING_REQUIRED_TEMPLATE_FIELDS,Missing required template fields
+MISSING_TEMPLATE_FIELD_VALUE,Missing a required field value
+MISSING_TEXT,The ad must have text.
+MISSING_URL_AND_PHONE,"Ad must link to a mobile web page or connect users to your business telephone, or both. Please enter a mobile Destination URL and/or a business telephone number."
+MISSING_VISIBLE_URL,A visible URL must be entered.
+MISSING_WIDTH,A width must be entered.
+MULTIPLE_DISTINCT_FEEDS_UNSUPPORTED,Only 1 feed can be used as the source of ad customizer substitutions in a single ad.
+MUST_USE_TEMP_AD_UNION_ID_ON_ADD,TempAdUnionId must be use when adding template ads.
+TOO_LONG,The string has too many characters.
+TOO_SHORT,The string has too few characters.
+UNION_DIMENSIONS_CANNOT_CHANGE,Ad union dimensions cannot change for saved ads.
+UNKNOWN_ADDRESS_COMPONENT,"Address component is not {country, lat, lng}."
+UNKNOWN_FIELD_NAME,Unknown unique field name
+UNKNOWN_UNIQUE_NAME,Unknown unique name (template element type specifier)
+UNSUPPORTED_DIMENSIONS,Unsupported ad dimension
+URL_INVALID_SCHEME,URL starts with an invalid scheme.
+URL_INVALID_TOP_LEVEL_DOMAIN,URL ends with an invalid top-level domain name.
+URL_MALFORMED,URL contains illegal characters.
+URL_NO_HOST,URL must contain a host name.
+URL_NOT_EQUIVALENT,URL not equivalent during upgrade.
+URL_HOST_NAME_TOO_LONG,URL host name too long to be stored as visible URL (applies to Ad Exchange ads)
+URL_NO_SCHEME,URL must start with a scheme.
+URL_NO_TOP_LEVEL_DOMAIN,"URL should end in a valid domain extension, such as .com or .net."
+URL_PATH_NOT_ALLOWED,URL must not end with a path.
+URL_PORT_NOT_ALLOWED,URL must not specify a port.
+URL_QUERY_NOT_ALLOWED,URL must not contain a query.
+URL_SCHEME_BEFORE_DSA_TAG,A url scheme is not allowed in front of tag in dest url (e.g. http://{lpurl})
+USER_DOES_NOT_HAVE_ACCESS_TO_TEMPLATE,The user does not have permissions to create a template ad for the given template.
+INCONSISTENT_EXPANDABLE_SETTINGS,"Expandable setting is inconsistent/wrong. For example, an AdX ad is invalid if it has a expandable vendor format but no expanding directions specified, or expanding directions is specified, but the vendor format is not expandable."
+INVALID_FORMAT,Format is invalid
+INVALID_FIELD_TEXT,The text of this field did not match a pattern of allowed values.
+ELEMENT_NOT_PRESENT,Template element is mising
+IMAGE_ERROR,Error occurred during image processing
+VALUE_NOT_IN_RANGE,The value is not within the valid range
+FIELD_NOT_PRESENT,Template element field is not present
+ADDRESS_NOT_COMPLETE,Address is incomplete
+ADDRESS_INVALID,Invalid address
+VIDEO_RETRIEVAL_ERROR,Error retrieving specified video
+AUDIO_ERROR,Error processing audio
+INVALID_YOUTUBE_DISPLAY_URL,Display URL is incorrect for YouTube PYV ads
+INCOMPATIBLE_AD_TYPE_AND_DEVICE_PREFERENCE,The device preference is not compatible with the ad type
+CALLTRACKING_NOT_SUPPORTED_FOR_COUNTRY,Call tracking is not supported for specified country.
+CARRIER_SPECIFIC_SHORT_NUMBER_NOT_ALLOWED,Carrier specific short number is not allowed.
+DISALLOWED_NUMBER_TYPE,Specified phone number type is disallowed.
+PHONE_NUMBER_NOT_SUPPORTED_FOR_COUNTRY,Phone number not supported for country.
+PREMIUM_RATE_NUMBER_NOT_ALLOWED,Premium rate phone number is not allowed.
+VANITY_PHONE_NUMBER_NOT_ALLOWED,Vanity phone number is not allowed.
+INVALID_CALL_CONVERSION_TYPE_ID,Invalid call conversion type id.
+CANNOT_DISABLE_CALL_CONVERSION_AND_SET_CONVERSION_TYPE_ID,
+AD_GROUP_AD_LABEL_DOES_NOT_EXIST,No link found between the adgroup ad and the label.
+AD_GROUP_AD_LABEL_ALREADY_EXISTS,The label has already been attached to the adgroup ad.
+AD_NOT_UNDER_ADGROUP,The specified ad was not found in the adgroup
+CANNOT_OPERATE_ON_REMOVED_ADGROUPAD,Removed ads may not be modified
+CANNOT_CREATE_DEPRECATED_ADS,An ad of this type is deprecated and cannot be created. Only deletions are permitted.
+EMPTY_FIELD,A required field was not specified or is an empty string.
+ENTITY_REFERENCED_IN_MULTIPLE_OPS,An ad may only be modified once per call
+UNSUPPORTED_OPERATION,"The specified operation is not supported. Only ADD, SET, and REMOVE are supported"
+UNSUPPORTED_FEATURE,Attempt to use non-AdX feature by AdX customer.
+AUTHENTICATION_FAILED,Authentication of the request failed.
+CLIENT_CUSTOMER_ID_IS_REQUIRED,Client Customer Id is required if CustomerIdMode is set to CLIENT_EXTERNAL_CUSTOMER_ID. Starting version V201409 ClientCustomerId will be required for all requests except for CustomerService.get
+CLIENT_EMAIL_REQUIRED,Client Email is required if CustomerIdMode is set to CLIENT_EXTERNAL_EMAIL_FIELD.
+CLIENT_CUSTOMER_ID_INVALID,Client customer Id is not a number.
+CLIENT_EMAIL_INVALID,Client customer Id is not a number.
+CLIENT_EMAIL_FAILED_TO_AUTHENTICATE,Client email is not a valid customer email.
+CUSTOMER_NOT_FOUND,No customer found for the customer id provided in the header.
+GOOGLE_ACCOUNT_DELETED,Client's Google Account is deleted.
+GOOGLE_ACCOUNT_COOKIE_INVALID,Google account login token in the cookie is invalid.
+FAILED_TO_AUTHENTICATE_GOOGLE_ACCOUNT,problem occurred during Google account authentication.
+GOOGLE_ACCOUNT_USER_AND_ADS_USER_MISMATCH,The user in the google account login token does not match the UserId in the cookie.
+LOGIN_COOKIE_REQUIRED,Login cookie is required for authentication.
+NOT_ADS_USER,User in the cookie is not a valid Ads user.
+OAUTH_TOKEN_INVALID,Oauth token in the header is not valid.
+OAUTH_TOKEN_EXPIRED,Oauth token in the header has expired.
+OAUTH_TOKEN_DISABLED,Oauth token in the header has been disabled.
+OAUTH_TOKEN_REVOKED,Oauth token in the header has been revoked.
+OAUTH_TOKEN_HEADER_INVALID,Oauth token HTTP header is malformed.
+LOGIN_COOKIE_INVALID,Login cookie is not valid.
+FAILED_TO_RETRIEVE_LOGIN_COOKIE,Failed to decrypt the login cookie.
+USER_ID_INVALID,User Id in the header is not a valid id.
+UNABLE_TO_AUTHORIZE,Could not complete authorization due to an internal problem.
+NO_ADWORDS_ACCOUNT_FOR_CUSTOMER,Customer has no AdWords account.
+USER_PERMISSION_DENIED,User doesn't have permission to access customer.
+EFFECTIVE_USER_PERMISSION_DENIED,Effective user doesn't have permission to access this customer.
+USER_HAS_READONLY_PERMISSION,User has read-only permission cannot mutate.
+NO_CUSTOMER_FOUND,No customer found.
+SERVICE_ACCESS_DENIED,Developer doesn't have permission to access service.
+INCOMPLETE_SIGNUP_CURRENT_ADWORDS_TNC_NOT_AGREED,Customer has not agreed to the latest AdWords Terms &amp; Conditions
+CONCURRENT_MODIFICATION,A concurrency problem occurred as two threads were attempting to modify same object.
+PERMISSION_DENIED,The permission was denied to access an object.
+ACCESS_PROHIBITED,The user's access to an object has been prohibited.
+CAMPAIGN_PRODUCT_NOT_SUPPORTED,Requested campaign belongs to a product that is not supported by the api.
+DUPLICATE_KEY,a duplicate key was detected upon insertion
+DATABASE_ERROR,a database error has occurred
+UNKNOWN,an unknown error has occurred
+INVALID_FIELD_VALUES_IN_DATE,Given field values do not correspond to a valid date.
+INVALID_FIELD_VALUES_IN_DATE_TIME,Given field values do not correspond to a valid date time.
+INVALID_STRING_DATE,The string date's format should be yyyymmdd.
+INVALID_STRING_DATE_RANGE,The string date range's format should be yyyymmdd yyyymmdd.
+INVALID_STRING_DATE_TIME,The string date time's format should be yyyymmdd hhmmss [tz].
+EARLIER_THAN_MINIMUM_DATE,Date is before allowed minimum.
+LATER_THAN_MAXIMUM_DATE,Date is after allowed maximum.
+DATE_RANGE_MINIMUM_DATE_LATER_THAN_MAXIMUM_DATE,Date range bounds are not in order.
+DATE_RANGE_MINIMUM_AND_MAXIMUM_DATES_BOTH_NULL,Both dates in range are null.
+DUPLICATE_ELEMENT,
+DUPLICATE_TYPE,
+READ_ACCESS_DENIED,User did not have read access.
+WRITE_ACCESS_DENIED,User did not have write access.
+ACCOUNT_LIMIT,Indicates that this request would exceed the number of allowed entities for the AdWords account. The exact entity type and limit being checked can be inferred from accountLimitType.
+CAMPAIGN_LIMIT,"Indicates that this request would exceed the number of allowed entities in a Campaign. The exact entity type and limit being checked can be inferred from accountLimitType, and the numeric id of the Campaign involved is given by enclosingId."
+ADGROUP_LIMIT,"Indicates that this request would exceed the number of allowed entities in an ad group. The exact entity type and limit being checked can be inferred from accountLimitType, and the numeric id of the ad group involved is given by enclosingId."
+AD_GROUP_AD_LIMIT,"Indicates that this request would exceed the number of allowed entities in an ad group ad. The exact entity type and limit being checked can be inferred from accountLimitType, and the enclosingId contains the ad group id followed by the ad id, separated by a single comma (,)."
+AD_GROUP_CRITERION_LIMIT,"Indicates that this request would exceed the number of allowed entities in an ad group criterion. The exact entity type and limit being checked can be inferred from accountLimitType, and the enclosingId contains the ad group id followed by the criterion id, separated by a single comma (,)."
+SHARED_SET_LIMIT,"Indicates that this request would exceed the number of allowed entities in this shared set. The exact entity type and limit being checked can be inferred from accountLimitType, and the numeric id of the shared set involved is given by enclosingId."
+MATCHING_FUNCTION_LIMIT,Exceeds a limit related to a matching function.
+UNKNOWN,Specific limit that has been exceeded is unknown (the client may be of an older version than the server).
+INVALID_ID,The specified id refered to an entity which either doesn't exist or is not accessible to the customer. e.g. campaign belongs to another customer.
+EXPERIMENT_DELTA_STATUS_NOT_SPECIFIED,Experiment delta status not specified.
+EXPERIMENT_DELTA_STATUS_NOT_ALLOWED,Experiment delta status not allowed.
+EXPERIMENT_STATUS_NOT_ALLOWED,Cannot create experiment data in REMOVED status
+EXPERIMENT_NOT_ALLOWED_FOR_BIDDING_STRATEGY,Experiments are not allowed for this bidding strategy
+EXPERIMENT_NOT_ALLOWED_FOR_CRITERION_TYPE,Experiments are not allowed for this criterion type
+EXPERIMENT_NOT_ACTIVE,Cannot make changes for inactive experiments
+INVALID_EXPERIMENT_ID,Invalid experiment id
+EXPERIMENT_ID_NOT_SPECIFIED_WITH_SEGMENTATION_CRITERIA,Experiment id must be specified for this criterion
+TOO_MANY_CHANGES_TO_EXPERIMENT,This experiment has too many changes
+EXPERIMENT_ERROR,
+CANNOT_REFERENCE_DELETED_FEED,A feed referenced by ID has been deleted.
+INVALID_FEED_NAME,There is no active feed with the given name.
+INVALID_FEED_ATTRIBUTE_NAME,There is no feed attribute in an active feed with the given name.
+INVALID_FORWARD_COMPATIBILITY_MAP_VALUE,Invalid value specified for a key in the forward compatibility map.
+UNKNOWN,
+INVALID_FUNCTION_FORMAT,The format of the function is not recognized as a supported function format.
+DATA_TYPE_MISMATCH,Operand data types do not match.
+INVALID_CONJUNCTION_OPERANDS,The operands cannot be used together in a conjunction.
+INVALID_NUMBER_OF_OPERANDS,Invalid numer of Operands.
+INVALID_OPERAND_TYPE,Operand Type not supported.
+INVALID_OPERATOR,Operator not supported.
+INVALID_REQUEST_CONTEXT_TYPE,Request context type not supported.
+INVALID_FUNCTION_FOR_CALL_PLACEHOLDER,The matching function is not allowed for call placeholders
+INVALID_FUNCTION_FOR_PLACEHOLDER,The matching function is not allowed for the specified placeholder
+INVALID_OPERAND,Invalid operand.
+MISSING_CONSTANT_OPERAND_VALUE,Missing value for the constant operand.
+INVALID_CONSTANT_OPERAND_VALUE,The value of the constant operand is invalid.
+INVALID_NESTING,Invalid function nesting.
+MULTIPLE_FEED_IDS_NOT_SUPPORTED,The Feed ID was different from another Feed ID in the same function.
+INVALID_ATTRIBUTE_NAME,Invalid attribute name.
+UNKNOWN,
+NO_MORE_INPUT,Unexpected end of function string.
+EXPECTED_CHARACTER,Could not find an expected character.
+UNEXPECTED_SEPARATOR,Unexpected separator character.
+UNMATCHED_LEFT_BRACKET,Unmatched left bracket or parenthesis.
+UNMATCHED_RIGHT_BRACKET,Unmatched right bracket or parenthesis.
+TOO_MANY_NESTED_FUNCTIONS,Functions are nested too deeply.
+MISSING_RIGHT_HAND_OPERAND,Missing right-hand-side operand.
+INVALID_OPERATOR_NAME,Invalid operator/function name.
+FEED_ATTRIBUTE_OPERAND_ARGUMENT_NOT_INTEGER,Feed attribute operand's argument is not an integer.
+NO_OPERANDS,Missing function operands.
+TOO_MANY_OPERANDS,Function had too many operands.
+UNKNOWN,
+NOT_FOUND,Id not found
+INVALID_IMAGE,The image is not valid.
+STORAGE_ERROR,The image could not be stored.
+BAD_REQUEST,There was a problem with the request.
+UNEXPECTED_SIZE,The image is not of legal dimensions.
+ANIMATED_NOT_ALLOWED,Animated image are not permitted.
+ANIMATION_TOO_LONG,Animation is too long.
+SERVER_ERROR,There was an error on the server.
+CMYK_JPEG_NOT_ALLOWED,Image cannot be in CMYK color format.
+FLASH_NOT_ALLOWED,Flash images are not permitted.
+FLASH_WITHOUT_CLICKTAG,Flash images must support clickTag.
+FLASH_ERROR_AFTER_FIXING_CLICK_TAG,A flash error has occurred after fixing the click tag.
+ANIMATED_VISUAL_EFFECT,Unacceptable visual effects.
+FLASH_ERROR,There was a problem with the flash image.
+LAYOUT_PROBLEM,Incorrect image layout.
+PROBLEM_READING_IMAGE_FILE,There was a problem reading the image file.
+ERROR_STORING_IMAGE,There was an error storing the image.
+FLASH_HAS_NETWORK_OBJECTS,Flash cannot have network objects.
+FLASH_HAS_NETWORK_METHODS,Flash cannot have network methods.
+FLASH_HAS_URL,Flash cannot have a Url.
+FLASH_HAS_MOUSE_TRACKING,Flash cannot use mouse tracking.
+FLASH_HAS_RANDOM_NUM,Flash cannot have a random number.
+FLASH_SELF_TARGETS,Ad click target cannot be '_self'.
+FLASH_BAD_GETURL_TARGET,GetUrl method should only use '_blank'.
+FLASH_VERSION_NOT_SUPPORTED,Flash version is not supported.
+FLASH_WITHOUT_HARD_CODED_CLICK_URL,Flash movies need to have hard coded click URL or clickTAG
+INVALID_FLASH_FILE,Uploaded flash file is corrupted.
+FAILED_TO_FIX_CLICK_TAG_IN_FLASH,"Uploaded flash file can be parsed, but the click tag can not be fixed properly."
+FLASH_ACCESSES_NETWORK_RESOURCES,Flash movie accesses network resources
+FLASH_EXTERNAL_JS_CALL,Flash movie attempts to call external javascript code
+FLASH_EXTERNAL_FS_CALL,Flash movie attempts to call flash system commands
+FILE_TOO_LARGE,Image file is too large.
+IMAGE_DATA_TOO_LARGE,Image data is too large.
+IMAGE_PROCESSING_ERROR,Error while processing the image.
+IMAGE_TOO_SMALL,Image is too small.
+INVALID_INPUT,Input was invalid.
+PROBLEM_READING_FILE,There was a problem reading the image file.
+UNEXPECTED_INTERNAL_API_ERROR,API encountered an unexpected internal error.
+TRANSIENT_ERROR,A temporary error occurred during the request. Please retry.
+UNKNOWN,The cause of the error is not known or only defined in newer versions.
+DOWNTIME,The API is currently unavailable for a planned downtime.
+ENTRY_POINT_CANNOT_BE_SET_USING_MEDIA_SERVICE,The entryPoint field cannot be set using the MediaService.
+BAD_REQUEST,There was a problem with the request.
+DOUBLECLICK_BUNDLE_NOT_ALLOWED,HTML5 ads using DoubleClick Studio created ZIP files are not supported.
+EXTERNAL_URL_NOT_ALLOWED,Cannot reference URL external to the media bundle.
+FILE_TOO_LARGE,Media bundle file is too large.
+GOOGLE_WEB_DESIGNER_ZIP_FILE_NOT_PUBLISHED,ZIP file from Google Web Designer is not published.
+INVALID_INPUT,Input was invalid.
+INVALID_MEDIA_BUNDLE,There was a problem with the media bundle.
+INVALID_MEDIA_BUNDLE_ENTRY,There was a problem with one or more of the media bundle entries.
+INVALID_MIME_TYPE,The media bundle contains a file with an unknown mime type
+INVALID_PATH,The media bundle contain an invalid asset path.
+INVALID_URL_REFERENCE,HTML5 ad is trying to reference an asset not in .ZIP file
+MEDIA_DATA_TOO_LARGE,Media data is too large.
+MISSING_PRIMARY_MEDIA_BUNDLE_ENTRY,The media bundle contains no primary entry.
+SERVER_ERROR,There was an error on the server.
+STORAGE_ERROR,The image could not be stored.
+SWIFFY_BUNDLE_NOT_ALLOWED,Media bundle created with the Swiffy tool is not allowed.
+TOO_MANY_FILES,The media bundle contains too many files.
+UNEXPECTED_SIZE,The media bundle is not of legal dimensions.
+UNSUPPORTED_GOOGLE_WEB_DESIGNER_ENVIRONMENT,"Google Web Designer not created for ""AdWords"" environment."
+UNSUPPORTED_HTML5_FEATURE,Unsupported HTML5 feature in HTML5 asset.
+URL_IN_MEDIA_BUNDLE_NOT_SSL_COMPLIANT,URL in HTML5 entry is not ssl compliant.
+CANNOT_ADD_STANDARD_ICON,Cannot add a standard icon type
+CANNOT_SELECT_STANDARD_ICON_WITH_OTHER_TYPES,May only select Standard Icons alone
+DUPLICATE_MEDIA,A media with given type and reference id already exists
+EMPTY_FIELD,A required field was not specified or is an empty string.
+ENTITY_REFERENCED_IN_MULTIPLE_OPS,A media may only be modified once per call
+FIELD_NOT_SUPPORTED_FOR_MEDIA_SUB_TYPE,Field is not supported for the media sub type.
+INVALID_MEDIA_ID,The media id is invalid
+INVALID_MEDIA_TYPE,The media type is invalid
+INVALID_MEDIA_SUB_TYPE,The media subtype is invalid
+INVALID_REFERENCE_ID,The media reference id is invalid
+INVALID_YOU_TUBE_ID,The YouTube video id is invalid
+YOU_TUBE_VIDEO_NOT_FOUND,The YouTube video id is syntactically valid but the video was not found.
+YOU_TUBE_SERVICE_UNAVAILABLE,YouTube is unavailable for requesting video data.
+YOU_TUBE_VIDEO_HAS_NON_POSITIVE_DURATION,The YouTube video has a non positive duration.
+MEDIA_FAILED_TRANSCODING,Media has failed transcoding
+MEDIA_NOT_TRANSCODED,Media has not been transcoded
+MEDIA_TYPE_DOES_NOT_MATCH_OBJECT_TYPE,The MediaType does not match the actual media object's type
+NO_FIELDS_SPECIFIED,None of the fields have been specified.
+NULL_REFERENCE_ID_AND_MEDIA_ID,One of reference Id or media Id must be specified
+TOO_LONG,The string has too many characters.
+UNSUPPORTED_OPERATION,"The specified operation is not supported. Only ADD, SET, and REMOVE are supported"
+UNSUPPORTED_TYPE,
+CANNOT_SET_ID_FOR_ADD,Do not set the id field while creating new entities.
+DUPLICATE_TEMP_IDS,Creating more than one entity with the same temp ID is not allowed.
+TEMP_ID_ENTITY_HAD_ERRORS,"Parent object with specified temp id failed validation, so no deep validation will be done for this child entity."
+EMPTY_LIST,
+NULL_CONTENT,Specified list/container must not contain any null elements
+ACTION_NOT_PERMITTED,"Unauthorized invocation of a service's method (get, mutate, etc.)"
+ADD_OPERATION_NOT_PERMITTED,Unauthorized ADD operation in invoking a service's mutate method.
+REMOVE_OPERATION_NOT_PERMITTED,Unauthorized REMOVE operation in invoking a service's mutate method.
+SET_OPERATION_NOT_PERMITTED,Unauthorized SET operation in invoking a service's mutate method.
+MUTATE_ACTION_NOT_PERMITTED_FOR_CLIENT,"A mutate action is not allowed on this campaign, from this client."
+OPERATION_NOT_PERMITTED_FOR_CAMPAIGN_TYPE,This operation is not permitted on this campaign type
+ADD_AS_REMOVED_NOT_PERMITTED,An ADD operation may not set status to REMOVED.
+OPERATION_NOT_PERMITTED_FOR_REMOVED_ENTITY,This operation is not allowed because the campaign or adgroup is removed.
+UNKNOWN,The reason the invoked method or operation is prohibited is not known (the client may be of an older version than the server).
+OPERATOR_NOT_SUPPORTED,
+START_INDEX_CANNOT_BE_NEGATIVE,
+NUMBER_OF_RESULTS_CANNOT_BE_NEGATIVE,
+UNKNOWN,"Used for return value only. An enumeration could not be processed, typically due to incompatibility with your WSDL version."
+Namespace,https://adwords.google.com/api/adwords/cm/v201509
+PARSING_FAILED,Exception that happens when trying to parse a query that doesn't match the AWQL grammar.
+MISSING_QUERY,The provided query is an empty string.
+MISSING_SELECT_CLAUSE,The query does not contain the required SELECT clause or it is not in the correct location.
+MISSING_FROM_CLAUSE,The query does not contain the required FROM clause or it is not in the correct location.
+INVALID_SELECT_CLAUSE,The SELECT clause could not be parsed.
+INVALID_FROM_CLAUSE,The FROM clause could not be parsed.
+INVALID_WHERE_CLAUSE,The WHERE clause could not be parsed.
+INVALID_ORDER_BY_CLAUSE,The ORDER BY clause could not be parsed.
+INVALID_LIMIT_CLAUSE,The LIMIT clause could not be parsed.
+INVALID_START_INDEX_IN_LIMIT_CLAUSE,The startIndex in the LIMIT clause does not contain a valid integer.
+INVALID_PAGE_SIZE_IN_LIMIT_CLAUSE,The pageSize in the LIMIT clause does not contain a valid integer.
+INVALID_DURING_CLAUSE,The DURING clause could not be parsed.
+INVALID_MIN_DATE_IN_DURING_CLAUSE,The minimum date in the DURING clause is not a valid date in YYYYMMDD format.
+INVALID_MAX_DATE_IN_DURING_CLAUSE,The maximum date in the DURING clause is not a valid date in YYYYMMDD format.
+MAX_LESS_THAN_MIN_IN_DURING_CLAUSE,The minimum date in the DURING is after the maximum date.
+VALIDATION_FAILED,"The query matched the grammar, but is invalid in some way such as using a service that isn't supported."
+INVALID_TOKEN_HEADER,Customer passed in an invalid token in the header.
+ACCOUNT_DELINQUENT,Customer is marked delinquent.
+ACCOUNT_INACCESSIBLE,Customer is a fraudulent.
+ACCOUNT_INACTIVE,Inactive Account.
+INCOMPLETE_SIGNUP,Signup not complete
+DEVELOPER_TOKEN_NOT_APPROVED,"Developer token is not approved for production access, and the customer is attempting to access a production account."
+TERMS_AND_CONDITIONS_NOT_SIGNED,Terms and conditions are not signed.
+MONTHLY_BUDGET_REACHED,Monthly budget quota reached.
+QUOTA_EXCEEDED,Monthly budget quota exceeded.
+TOO_LOW,
+TOO_HIGH,
+RATE_EXCEEDED,Rate exceeded.
+READ_ONLY,
+UNKNOWN_VALUE,Unknown value encountered
+UNKNOWN,Error reason is unknown.
+INVALID_INPUT,Invalid input.
+UNSUPPORTED_VERSION,The api version in the request has been discontinued. Please update to the new AdWords API version.
+REQUIRED,Missing required field.
+INVALID_FIELD_NAME,The field name is not valid.
+MISSING_FIELDS,The list of fields is null or empty.
+MISSING_PREDICATES,The list of predicates is null or empty.
+OPERATOR_DOES_NOT_SUPPORT_MULTIPLE_VALUES,Predicate operator does not support multiple values. Multiple values are supported only for Predicate.Operator.IN and Predicate.Operator.NOT_IN.
+INVALID_PREDICATE_ENUM_VALUE,The predicate enum value is not valid.
+MISSING_PREDICATE_OPERATOR,The predicate operator is empty.
+MISSING_PREDICATE_VALUES,The predicate values are empty.
+INVALID_PREDICATE_FIELD_NAME,The predicate field name is not valid.
+INVALID_PREDICATE_OPERATOR,The predicate operator is not valid.
+INVALID_FIELD_SELECTION,Invalid selection of fields.
+INVALID_PREDICATE_VALUE,The predicate value is not valid.
+INVALID_SORT_FIELD_NAME,The sort field name is not valid or the field is not sortable.
+SELECTOR_ERROR,Standard error.
+FILTER_BY_DATE_RANGE_NOT_SUPPORTED,Filtering by date range is not supported.
+START_INDEX_IS_TOO_HIGH,Selector paging start index is too high.
+TOO_MANY_PREDICATE_VALUES,The values list in a predicate was too long.
+UNKNOWN_ERROR,"Used for return value only. An enumeration could not be processed, typically due to incompatibility with your WSDL version."
+REQUEST_SIZE_LIMIT_EXCEEDED,The number of entries in the request exceeds the system limit.
+RESPONSE_SIZE_LIMIT_EXCEEDED,The number of entries in the response exceeds the system limit.
+INTERNAL_STORAGE_ERROR,The account is too large to load.
+UNKNOWN,"Used for return value only. An enumeration could not be processed, typically due to incompatibility with your WSDL version."
+DATE_NOT_IN_VALID_RANGE,Date is outside of allowed range.
+TOO_SHORT,
+TOO_LONG,
+INVALID_TRACKING_URL_TEMPLATE,The tracking url template is invalid.
+INVALID_TAG_IN_TRACKING_URL_TEMPLATE,The tracking url template contains invalid tag.
+MISSING_TRACKING_URL_TEMPLATE_TAG,"The tracking url template must contain at least one tag (e.g. {lpurl}), This applies only to tracking url template associated with website ads or product ads."
+MISSING_PROTOCOL_IN_TRACKING_URL_TEMPLATE,The tracking url template must start with a valid protocol (or lpurl tag).
+INVALID_PROTOCOL_IN_TRACKING_URL_TEMPLATE,The tracking url template starts with an invalid protocol.
+MALFORMED_TRACKING_URL_TEMPLATE,The tracking url template contains illegal characters.
+MISSING_HOST_IN_TRACKING_URL_TEMPLATE,The tracking url template must contain a host name (or lpurl tag).
+INVALID_TLD_IN_TRACKING_URL_TEMPLATE,The tracking url template has an invalid or missing top level domain extension.
+REDUNDANT_NESTED_TRACKING_URL_TEMPLATE_TAG,The tracking url template contains nested occurrences of the same conditional tag (i.e. {ifmobile:{ifmobile:x}}).
+INVALID_FINAL_URL,The final url is invalid.
+INVALID_TAG_IN_FINAL_URL,The final url contains invalid tag.
+REDUNDANT_NESTED_FINAL_URL_TAG,The final url contains nested occurrences of the same conditional tag (i.e. {ifmobile:{ifmobile:x}}).
+MISSING_PROTOCOL_IN_FINAL_URL,The final url must start with a valid protocol.
+INVALID_PROTOCOL_IN_FINAL_URL,The final url starts with an invalid protocol.
+MALFORMED_FINAL_URL,The final url contains illegal characters.
+MISSING_HOST_IN_FINAL_URL,The final url must contain a host name.
+INVALID_TLD_IN_FINAL_URL,The tracking url template has an invalid or missing top level domain extension.
+INVALID_FINAL_MOBILE_URL,The final mobile url is invalid.
+INVALID_TAG_IN_FINAL_MOBILE_URL,The final mobile url contains invalid tag.
+REDUNDANT_NESTED_FINAL_MOBILE_URL_TAG,The final mobile url contains nested occurrences of the same conditional tag (i.e. {ifmobile:{ifmobile:x}}).
+MISSING_PROTOCOL_IN_FINAL_MOBILE_URL,The final mobile url must start with a valid protocol.
+INVALID_PROTOCOL_IN_FINAL_MOBILE_URL,The final mobile url starts with an invalid protocol.
+MALFORMED_FINAL_MOBILE_URL,The final mobile url contains illegal characters.
+MISSING_HOST_IN_FINAL_MOBILE_URL,The final mobile url must contain a host name.
+INVALID_TLD_IN_FINAL_MOBILE_URL,The tracking url template has an invalid or missing top level domain extension.
+INVALID_FINAL_APP_URL,The final app url is invalid.
+INVALID_TAG_IN_FINAL_APP_URL,The final app url contains invalid tag.
+REDUNDANT_NESTED_FINAL_APP_URL_TAG,The final app url contains nested occurrences of the same conditional tag (i.e. {ifmobile:{ifmobile:x}}).
+MULTIPLE_APP_URLS_FOR_OSTYPE,More than one app url found for the same OS type.
+INVALID_OSTYPE,The OS type given for an app url is not valid.
+INVALID_PROTOCOL_FOR_APP_URL,"The protocol given for an app url is not valid. (E.g. ""android-app://"")"
+INVALID_PACKAGE_ID_FOR_APP_URL,The package id (app id) given for an app url is not valid.
+URL_CUSTOM_PARAMETERS_COUNT_EXCEEDS_LIMIT,The number of url custom parameters for an entity exceeds the maximum limit allowed.
+URL_CUSTOM_PARAMETER_REMOVAL_WITH_NON_NULL_VALUE,The parameter has isRemove set to true but a value that is non-null.
+CANNOT_REMOVE_URL_CUSTOM_PARAMETER_IN_ADD_OPERATION,"For add operations, there will not be any existing parameters to delete."
+CANNOT_REMOVE_URL_CUSTOM_PARAMETER_DURING_FULL_REPLACEMENT,"When the doReplace flag is set to true, individual parameters cannot be deleted."
+NULL_CUSTOM_PARAMETER_VALUE_DURING_ADD_OR_FULL_REPLACEMENT,"For ADD operations and when the doReplace flag is set to true, custom parameter values cannot be null."
+INVALID_CHARACTERS_IN_URL_CUSTOM_PARAMETER_KEY,An invalid character appears in the parameter key.
+INVALID_CHARACTERS_IN_URL_CUSTOM_PARAMETER_VALUE,An invalid character appears in the parameter value.
+INVALID_TAG_IN_URL_CUSTOM_PARAMETER_VALUE,The url custom parameter value fails url tag validation.
+REDUNDANT_NESTED_URL_CUSTOM_PARAMETER_TAG,The custom parameter contains nested occurrences of the same conditional tag (i.e. {ifmobile:{ifmobile:x}}).
+MISSING_PROTOCOL,The protocol (http:// or https://) is missing.
+INVALID_URL,The url is invalid.
+DESTINATION_URL_DEPRECATED,Destination Url is deprecated.
+INVALID_TAG_IN_URL,The url contains invalid tag.
+MISSING_URL_TAG,"The url must contain at least one tag (e.g. {lpurl}), This applies only to urls associated with website ads or product ads."
+URL_ERROR,

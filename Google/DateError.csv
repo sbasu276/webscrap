@@ -1,0 +1,9 @@
+INVALID_FIELD_VALUES_IN_DATE,Given field values do not correspond to a valid date.
+INVALID_FIELD_VALUES_IN_DATE_TIME,Given field values do not correspond to a valid date time.
+INVALID_STRING_DATE,The string date's format should be yyyymmdd.
+INVALID_STRING_DATE_RANGE,The string date range's format should be yyyymmdd yyyymmdd.
+INVALID_STRING_DATE_TIME,The string date time's format should be yyyymmdd hhmmss [tz].
+EARLIER_THAN_MINIMUM_DATE,Date is before allowed minimum.
+LATER_THAN_MAXIMUM_DATE,Date is after allowed maximum.
+DATE_RANGE_MINIMUM_DATE_LATER_THAN_MAXIMUM_DATE,Date range bounds are not in order.
+DATE_RANGE_MINIMUM_AND_MAXIMUM_DATES_BOTH_NULL,Both dates in range are null.

@@ -1,0 +1,36 @@
+INVALID_IMAGE,The image is not valid.
+STORAGE_ERROR,The image could not be stored.
+BAD_REQUEST,There was a problem with the request.
+UNEXPECTED_SIZE,The image is not of legal dimensions.
+ANIMATED_NOT_ALLOWED,Animated image are not permitted.
+ANIMATION_TOO_LONG,Animation is too long.
+SERVER_ERROR,There was an error on the server.
+CMYK_JPEG_NOT_ALLOWED,Image cannot be in CMYK color format.
+FLASH_NOT_ALLOWED,Flash images are not permitted.
+FLASH_WITHOUT_CLICKTAG,Flash images must support clickTag.
+FLASH_ERROR_AFTER_FIXING_CLICK_TAG,A flash error has occurred after fixing the click tag.
+ANIMATED_VISUAL_EFFECT,Unacceptable visual effects.
+FLASH_ERROR,There was a problem with the flash image.
+LAYOUT_PROBLEM,Incorrect image layout.
+PROBLEM_READING_IMAGE_FILE,There was a problem reading the image file.
+ERROR_STORING_IMAGE,There was an error storing the image.
+FLASH_HAS_NETWORK_OBJECTS,Flash cannot have network objects.
+FLASH_HAS_NETWORK_METHODS,Flash cannot have network methods.
+FLASH_HAS_URL,Flash cannot have a Url.
+FLASH_HAS_MOUSE_TRACKING,Flash cannot use mouse tracking.
+FLASH_HAS_RANDOM_NUM,Flash cannot have a random number.
+FLASH_SELF_TARGETS,Ad click target cannot be '_self'.
+FLASH_BAD_GETURL_TARGET,GetUrl method should only use '_blank'.
+FLASH_VERSION_NOT_SUPPORTED,Flash version is not supported.
+FLASH_WITHOUT_HARD_CODED_CLICK_URL,Flash movies need to have hard coded click URL or clickTAG
+INVALID_FLASH_FILE,Uploaded flash file is corrupted.
+FAILED_TO_FIX_CLICK_TAG_IN_FLASH,"Uploaded flash file can be parsed, but the click tag can not be fixed properly."
+FLASH_ACCESSES_NETWORK_RESOURCES,Flash movie accesses network resources
+FLASH_EXTERNAL_JS_CALL,Flash movie attempts to call external javascript code
+FLASH_EXTERNAL_FS_CALL,Flash movie attempts to call flash system commands
+FILE_TOO_LARGE,Image file is too large.
+IMAGE_DATA_TOO_LARGE,Image data is too large.
+IMAGE_PROCESSING_ERROR,Error while processing the image.
+IMAGE_TOO_SMALL,Image is too small.
+INVALID_INPUT,Input was invalid.
+PROBLEM_READING_FILE,There was a problem reading the image file.

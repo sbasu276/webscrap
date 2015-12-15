@@ -1,0 +1,7 @@
+CONCURRENT_MODIFICATION,A concurrency problem occurred as two threads were attempting to modify same object.
+PERMISSION_DENIED,The permission was denied to access an object.
+ACCESS_PROHIBITED,The user's access to an object has been prohibited.
+CAMPAIGN_PRODUCT_NOT_SUPPORTED,Requested campaign belongs to a product that is not supported by the api.
+DUPLICATE_KEY,a duplicate key was detected upon insertion
+DATABASE_ERROR,a database error has occurred
+UNKNOWN,an unknown error has occurred

@@ -1,0 +1,21 @@
+AUTHENTICATION_FAILED,Authentication of the request failed.
+CLIENT_CUSTOMER_ID_IS_REQUIRED,Client Customer Id is required if CustomerIdMode is set to CLIENT_EXTERNAL_CUSTOMER_ID. Starting version V201409 ClientCustomerId will be required for all requests except for CustomerService.get
+CLIENT_EMAIL_REQUIRED,Client Email is required if CustomerIdMode is set to CLIENT_EXTERNAL_EMAIL_FIELD.
+CLIENT_CUSTOMER_ID_INVALID,Client customer Id is not a number.
+CLIENT_EMAIL_INVALID,Client customer Id is not a number.
+CLIENT_EMAIL_FAILED_TO_AUTHENTICATE,Client email is not a valid customer email.
+CUSTOMER_NOT_FOUND,No customer found for the customer id provided in the header.
+GOOGLE_ACCOUNT_DELETED,Client's Google Account is deleted.
+GOOGLE_ACCOUNT_COOKIE_INVALID,Google account login token in the cookie is invalid.
+FAILED_TO_AUTHENTICATE_GOOGLE_ACCOUNT,problem occurred during Google account authentication.
+GOOGLE_ACCOUNT_USER_AND_ADS_USER_MISMATCH,The user in the google account login token does not match the UserId in the cookie.
+LOGIN_COOKIE_REQUIRED,Login cookie is required for authentication.
+NOT_ADS_USER,User in the cookie is not a valid Ads user.
+OAUTH_TOKEN_INVALID,Oauth token in the header is not valid.
+OAUTH_TOKEN_EXPIRED,Oauth token in the header has expired.
+OAUTH_TOKEN_DISABLED,Oauth token in the header has been disabled.
+OAUTH_TOKEN_REVOKED,Oauth token in the header has been revoked.
+OAUTH_TOKEN_HEADER_INVALID,Oauth token HTTP header is malformed.
+LOGIN_COOKIE_INVALID,Login cookie is not valid.
+FAILED_TO_RETRIEVE_LOGIN_COOKIE,Failed to decrypt the login cookie.
+USER_ID_INVALID,User Id in the header is not a valid id.

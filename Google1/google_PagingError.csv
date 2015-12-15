@@ -1,0 +1,3 @@
+START_INDEX_CANNOT_BE_NEGATIVE,
+NUMBER_OF_RESULTS_CANNOT_BE_NEGATIVE,
+UNKNOWN,"Used for return value only. An enumeration could not be processed, typically due to incompatibility with your WSDL version."

@@ -1,0 +1,4 @@
+COUNTDOWN_INVALID_DATE_FORMAT,Invalid date argument in countdown function.
+COUNTDOWN_DATE_IN_PAST,Countdown end date is in the past.
+COUNTDOWN_INVALID_LOCALE,Invalid locale string in countdown function.
+COUNTDOWN_INVALID_START_DAYS_BEFORE,Days-before argument to countdown function is not positive.

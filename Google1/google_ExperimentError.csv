@@ -1,0 +1,10 @@
+EXPERIMENT_DELTA_STATUS_NOT_SPECIFIED,Experiment delta status not specified.
+EXPERIMENT_DELTA_STATUS_NOT_ALLOWED,Experiment delta status not allowed.
+EXPERIMENT_STATUS_NOT_ALLOWED,Cannot create experiment data in REMOVED status
+EXPERIMENT_NOT_ALLOWED_FOR_BIDDING_STRATEGY,Experiments are not allowed for this bidding strategy
+EXPERIMENT_NOT_ALLOWED_FOR_CRITERION_TYPE,Experiments are not allowed for this criterion type
+EXPERIMENT_NOT_ACTIVE,Cannot make changes for inactive experiments
+INVALID_EXPERIMENT_ID,Invalid experiment id
+EXPERIMENT_ID_NOT_SPECIFIED_WITH_SEGMENTATION_CRITERIA,Experiment id must be specified for this criterion
+TOO_MANY_CHANGES_TO_EXPERIMENT,This experiment has too many changes
+EXPERIMENT_ERROR,

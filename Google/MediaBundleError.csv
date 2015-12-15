@@ -1,0 +1,22 @@
+ENTRY_POINT_CANNOT_BE_SET_USING_MEDIA_SERVICE,The entryPoint field cannot be set using the MediaService.
+BAD_REQUEST,There was a problem with the request.
+DOUBLECLICK_BUNDLE_NOT_ALLOWED,HTML5 ads using DoubleClick Studio created ZIP files are not supported.
+EXTERNAL_URL_NOT_ALLOWED,Cannot reference URL external to the media bundle.
+FILE_TOO_LARGE,Media bundle file is too large.
+GOOGLE_WEB_DESIGNER_ZIP_FILE_NOT_PUBLISHED,ZIP file from Google Web Designer is not published.
+INVALID_INPUT,Input was invalid.
+INVALID_MEDIA_BUNDLE,There was a problem with the media bundle.
+INVALID_MEDIA_BUNDLE_ENTRY,There was a problem with one or more of the media bundle entries.
+INVALID_MIME_TYPE,The media bundle contains a file with an unknown mime type
+INVALID_PATH,The media bundle contain an invalid asset path.
+INVALID_URL_REFERENCE,HTML5 ad is trying to reference an asset not in .ZIP file
+MEDIA_DATA_TOO_LARGE,Media data is too large.
+MISSING_PRIMARY_MEDIA_BUNDLE_ENTRY,The media bundle contains no primary entry.
+SERVER_ERROR,There was an error on the server.
+STORAGE_ERROR,The image could not be stored.
+SWIFFY_BUNDLE_NOT_ALLOWED,Media bundle created with the Swiffy tool is not allowed.
+TOO_MANY_FILES,The media bundle contains too many files.
+UNEXPECTED_SIZE,The media bundle is not of legal dimensions.
+UNSUPPORTED_GOOGLE_WEB_DESIGNER_ENVIRONMENT,"Google Web Designer not created for ""AdWords"" environment."
+UNSUPPORTED_HTML5_FEATURE,Unsupported HTML5 feature in HTML5 asset.
+URL_IN_MEDIA_BUNDLE_NOT_SSL_COMPLIANT,URL in HTML5 entry is not ssl compliant.

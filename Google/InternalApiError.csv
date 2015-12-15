@@ -1,0 +1,4 @@
+UNEXPECTED_INTERNAL_API_ERROR,API encountered an unexpected internal error.
+TRANSIENT_ERROR,A temporary error occurred during the request. Please retry.
+UNKNOWN,The cause of the error is not known or only defined in newer versions.
+DOWNTIME,The API is currently unavailable for a planned downtime.

@@ -1,0 +1,9 @@
+INVALID_TOKEN_HEADER,Customer passed in an invalid token in the header.
+ACCOUNT_DELINQUENT,Customer is marked delinquent.
+ACCOUNT_INACCESSIBLE,Customer is a fraudulent.
+ACCOUNT_INACTIVE,Inactive Account.
+INCOMPLETE_SIGNUP,Signup not complete
+DEVELOPER_TOKEN_NOT_APPROVED,"Developer token is not approved for production access, and the customer is attempting to access a production account."
+TERMS_AND_CONDITIONS_NOT_SIGNED,Terms and conditions are not signed.
+MONTHLY_BUDGET_REACHED,Monthly budget quota reached.
+QUOTA_EXCEEDED,Monthly budget quota exceeded.

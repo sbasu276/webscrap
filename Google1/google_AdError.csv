@@ -1,0 +1,114 @@
+AD_CUSTOMIZERS_NOT_SUPPORTED_FOR_AD_TYPE,Ad customizers are not supported for ad type.
+APPROXIMATELY_TOO_LONG,Estimating character sizes the string is too long.
+APPROXIMATELY_TOO_SHORT,Estimating character sizes the string is too short.
+BAD_SNIPPET,There is a problem with the snippet.
+CANNOT_SET_BUSINESS_NAME_IF_URL_SET,business name and url cannot be set at the same time
+CANNOT_SET_FIELD,The specified field is incompatible with this ad's type or settings.
+CANNOT_SET_FIELD_WITH_ORIGIN_AD_ID_SET,Cannot set field when originAdId is set.
+CANNOT_SET_URL,Cannot specify a url for the ad type
+CANNOT_SET_WITHOUT_FINAL_URLS,Cannot specify a tracking or mobile url without also setting final urls
+CANNOT_SET_WITH_FINAL_URLS,Cannot specify a legacy url and a final url simultaneously
+CANNOT_SET_WITH_TRACKING_URL_TEMPLATE,Cannot specify a legacy url and a tracking url template simultaneously in a DSA.
+CUSTOMER_NOT_APPROVED_MOBILEADS,Customer is not approved for mobile ads.
+CUSTOMER_NOT_APPROVED_THIRDPARTY_ADS,Customer is not approved for 3PAS richmedia ads.
+CUSTOMER_NOT_APPROVED_THIRDPARTY_REDIRECT_ADS,Customer is not approved for 3PAS redirect richmedia (Ad Exchange) ads.
+CUSTOMER_NOT_ELIGIBLE,Not an eligible customer
+CUSTOMER_NOT_ELIGIBLE_FOR_UPDATING_BEACON_URL,Customer is not eligible for updating beacon url
+DIMENSION_ALREADY_IN_UNION,There already exists an ad with the same dimensions in the union.
+DIMENSION_MUST_BE_SET,Ad's dimension must be set before setting union dimension.
+DIMENSION_NOT_IN_UNION,Ad's dimension must be included in the union dimensions.
+DISPLAY_URL_CANNOT_BE_SPECIFIED,Display Url cannot be specified (applies to Ad Exchange Ads)
+DOMESTIC_PHONE_NUMBER_FORMAT,"Telephone number contains invalid characters or invalid format. Please re-enter your number using digits (0-9), dashes (-), and parentheses only."
+EMERGENCY_PHONE_NUMBER,Emergency telephone numbers are not allowed. Please enter a valid domestic phone number to connect customers to your business.
+EMPTY_FIELD,A required field was not specified or is an empty string.
+FEED_ATTRIBUTE_MUST_HAVE_MAPPING_FOR_TYPE_ID,A feed attribute referenced in an ad customizer tag is not in the ad customizer mapping for the feed.
+FEED_ATTRIBUTE_MAPPING_TYPE_MISMATCH,The ad customizer field mapping for the feed attribute does not match the expected field type.
+ILLEGAL_AD_CUSTOMIZER_TAG_USE,The use of ad customizer tags in the ad text is disallowed. Details in trigger.
+INCONSISTENT_DIMENSIONS,The dimensions of the ad are specified or derived in multiple ways and are not consistent.
+INCONSISTENT_STATUS_IN_TEMPLATE_UNION,The status cannot differ among template ads of the same union.
+INCORRECT_LENGTH,The length of the string is not valid.
+INELIGIBLE_FOR_UPGRADE,The ad is ineligible for upgrade.
+INVALID_AD_ADDRESS_CAMPAIGN_TARGET,User cannot create mobile ad for countries targeted in specified campaign.
+INVALID_AD_TYPE,Invalid Ad type. A specific type of Ad is required.
+INVALID_ATTRIBUTES_FOR_MOBILE_IMAGE,"Headline, description or phone cannot be present when creating mobile image ad."
+INVALID_ATTRIBUTES_FOR_MOBILE_TEXT,Image cannot be present when creating mobile text ad.
+INVALID_CHARACTER_FOR_URL,Invalid character in URL.
+INVALID_COUNTRY_CODE,Creative's country code is not valid.
+INVALID_DSA_URL_TAG,Invalid use of Dynamic Search Ads tags ({lpurl} etc.)
+INVALID_INPUT,An input error whose real reason was not properly mapped (should not happen).
+INVALID_MARKUP_LANGUAGE,An invalid markup language was entered.
+INVALID_MOBILE_CARRIER,An invalid mobile carrier was entered.
+INVALID_MOBILE_CARRIER_TARGET,Specified mobile carriers target a country not targeted by the campaign.
+INVALID_NUMBER_OF_ELEMENTS,Wrong number of elements for given element type
+INVALID_PHONE_NUMBER_FORMAT,The format of the telephone number is incorrect. Please re-enter the number using the correct format.
+INVALID_RICH_MEDIA_CERTIFIED_VENDOR_FORMAT_ID,The certified vendor format id is incorrect.
+INVALID_TEMPLATE_DATA,The template ad data contains validation errors.
+INVALID_TEMPLATE_ELEMENT_FIELD_TYPE,The template field doesn't have have the correct type.
+INVALID_TEMPLATE_ID,Invalid template id.
+LINE_TOO_WIDE,"After substituting replacement strings, the line is too wide."
+MARKUP_LANGUAGES_PRESENT,When entering a markup language the Destination URL must be entered.
+MISSING_AD_CUSTOMIZER_MAPPING,The feed referenced must have ad customizer mapping to be used in a customizer tag.
+MISSING_ADDRESS_COMPONENT,Missing address component in template element address field.
+MISSING_ADVERTISEMENT_NAME,An ad name must be entered.
+MISSING_BUSINESS_NAME,Business name must be entered.
+MISSING_DESCRIPTION1,Description (line 2) must be entered.
+MISSING_DESCRIPTION2,Description (line 3) must be entered.
+MISSING_DESTINATION_URL,A destination URL must be entered.
+MISSING_DESTINATION_URL_TAG,The destination url must contain at least one tag (e.g. {lpurl})
+MISSING_DIMENSION,A valid dimension must be specified for this ad.
+MISSING_DISPLAY_URL,A display URL must be entered.
+MISSING_HEADLINE,Headline must be entered.
+MISSING_HEIGHT,A height must be entered.
+MISSING_IMAGE,An image must be entered.
+MISSING_MARKUP_LANGUAGES,The markup language in which your site is written must be entered.
+MISSING_MOBILE_CARRIER,A mobile carrier must be entered.
+MISSING_PHONE,Phone number must be entered.
+MISSING_REQUIRED_TEMPLATE_FIELDS,Missing required template fields
+MISSING_TEMPLATE_FIELD_VALUE,Missing a required field value
+MISSING_TEXT,The ad must have text.
+MISSING_URL_AND_PHONE,"Ad must link to a mobile web page or connect users to your business telephone, or both. Please enter a mobile Destination URL and/or a business telephone number."
+MISSING_VISIBLE_URL,A visible URL must be entered.
+MISSING_WIDTH,A width must be entered.
+MULTIPLE_DISTINCT_FEEDS_UNSUPPORTED,Only 1 feed can be used as the source of ad customizer substitutions in a single ad.
+MUST_USE_TEMP_AD_UNION_ID_ON_ADD,TempAdUnionId must be use when adding template ads.
+TOO_LONG,The string has too many characters.
+TOO_SHORT,The string has too few characters.
+UNION_DIMENSIONS_CANNOT_CHANGE,Ad union dimensions cannot change for saved ads.
+UNKNOWN_ADDRESS_COMPONENT,"Address component is not {country, lat, lng}."
+UNKNOWN_FIELD_NAME,Unknown unique field name
+UNKNOWN_UNIQUE_NAME,Unknown unique name (template element type specifier)
+UNSUPPORTED_DIMENSIONS,Unsupported ad dimension
+URL_INVALID_SCHEME,URL starts with an invalid scheme.
+URL_INVALID_TOP_LEVEL_DOMAIN,URL ends with an invalid top-level domain name.
+URL_MALFORMED,URL contains illegal characters.
+URL_NO_HOST,URL must contain a host name.
+URL_NOT_EQUIVALENT,URL not equivalent during upgrade.
+URL_HOST_NAME_TOO_LONG,URL host name too long to be stored as visible URL (applies to Ad Exchange ads)
+URL_NO_SCHEME,URL must start with a scheme.
+URL_NO_TOP_LEVEL_DOMAIN,"URL should end in a valid domain extension, such as .com or .net."
+URL_PATH_NOT_ALLOWED,URL must not end with a path.
+URL_PORT_NOT_ALLOWED,URL must not specify a port.
+URL_QUERY_NOT_ALLOWED,URL must not contain a query.
+URL_SCHEME_BEFORE_DSA_TAG,A url scheme is not allowed in front of tag in dest url (e.g. http://{lpurl})
+USER_DOES_NOT_HAVE_ACCESS_TO_TEMPLATE,The user does not have permissions to create a template ad for the given template.
+INCONSISTENT_EXPANDABLE_SETTINGS,"Expandable setting is inconsistent/wrong. For example, an AdX ad is invalid if it has a expandable vendor format but no expanding directions specified, or expanding directions is specified, but the vendor format is not expandable."
+INVALID_FORMAT,Format is invalid
+INVALID_FIELD_TEXT,The text of this field did not match a pattern of allowed values.
+ELEMENT_NOT_PRESENT,Template element is mising
+IMAGE_ERROR,Error occurred during image processing
+VALUE_NOT_IN_RANGE,The value is not within the valid range
+FIELD_NOT_PRESENT,Template element field is not present
+ADDRESS_NOT_COMPLETE,Address is incomplete
+ADDRESS_INVALID,Invalid address
+VIDEO_RETRIEVAL_ERROR,Error retrieving specified video
+AUDIO_ERROR,Error processing audio
+INVALID_YOUTUBE_DISPLAY_URL,Display URL is incorrect for YouTube PYV ads
+INCOMPATIBLE_AD_TYPE_AND_DEVICE_PREFERENCE,The device preference is not compatible with the ad type
+CALLTRACKING_NOT_SUPPORTED_FOR_COUNTRY,Call tracking is not supported for specified country.
+CARRIER_SPECIFIC_SHORT_NUMBER_NOT_ALLOWED,Carrier specific short number is not allowed.
+DISALLOWED_NUMBER_TYPE,Specified phone number type is disallowed.
+PHONE_NUMBER_NOT_SUPPORTED_FOR_COUNTRY,Phone number not supported for country.
+PREMIUM_RATE_NUMBER_NOT_ALLOWED,Premium rate phone number is not allowed.
+VANITY_PHONE_NUMBER_NOT_ALLOWED,Vanity phone number is not allowed.
+INVALID_CALL_CONVERSION_TYPE_ID,Invalid call conversion type id.
+CANNOT_DISABLE_CALL_CONVERSION_AND_SET_CONVERSION_TYPE_ID,

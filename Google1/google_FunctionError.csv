@@ -1,0 +1,16 @@
+INVALID_FUNCTION_FORMAT,The format of the function is not recognized as a supported function format.
+DATA_TYPE_MISMATCH,Operand data types do not match.
+INVALID_CONJUNCTION_OPERANDS,The operands cannot be used together in a conjunction.
+INVALID_NUMBER_OF_OPERANDS,Invalid numer of Operands.
+INVALID_OPERAND_TYPE,Operand Type not supported.
+INVALID_OPERATOR,Operator not supported.
+INVALID_REQUEST_CONTEXT_TYPE,Request context type not supported.
+INVALID_FUNCTION_FOR_CALL_PLACEHOLDER,The matching function is not allowed for call placeholders
+INVALID_FUNCTION_FOR_PLACEHOLDER,The matching function is not allowed for the specified placeholder
+INVALID_OPERAND,Invalid operand.
+MISSING_CONSTANT_OPERAND_VALUE,Missing value for the constant operand.
+INVALID_CONSTANT_OPERAND_VALUE,The value of the constant operand is invalid.
+INVALID_NESTING,Invalid function nesting.
+MULTIPLE_FEED_IDS_NOT_SUPPORTED,The Feed ID was different from another Feed ID in the same function.
+INVALID_ATTRIBUTE_NAME,Invalid attribute name.
+UNKNOWN,

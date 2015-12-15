@@ -1,0 +1,17 @@
+INVALID_FIELD_NAME,The field name is not valid.
+MISSING_FIELDS,The list of fields is null or empty.
+MISSING_PREDICATES,The list of predicates is null or empty.
+OPERATOR_DOES_NOT_SUPPORT_MULTIPLE_VALUES,Predicate operator does not support multiple values. Multiple values are supported only for Predicate.Operator.IN and Predicate.Operator.NOT_IN.
+INVALID_PREDICATE_ENUM_VALUE,The predicate enum value is not valid.
+MISSING_PREDICATE_OPERATOR,The predicate operator is empty.
+MISSING_PREDICATE_VALUES,The predicate values are empty.
+INVALID_PREDICATE_FIELD_NAME,The predicate field name is not valid.
+INVALID_PREDICATE_OPERATOR,The predicate operator is not valid.
+INVALID_FIELD_SELECTION,Invalid selection of fields.
+INVALID_PREDICATE_VALUE,The predicate value is not valid.
+INVALID_SORT_FIELD_NAME,The sort field name is not valid or the field is not sortable.
+SELECTOR_ERROR,Standard error.
+FILTER_BY_DATE_RANGE_NOT_SUPPORTED,Filtering by date range is not supported.
+START_INDEX_IS_TOO_HIGH,Selector paging start index is too high.
+TOO_MANY_PREDICATE_VALUES,The values list in a predicate was too long.
+UNKNOWN_ERROR,"Used for return value only. An enumeration could not be processed, typically due to incompatibility with your WSDL version."

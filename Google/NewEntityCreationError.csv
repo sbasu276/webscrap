@@ -1,0 +1,3 @@
+CANNOT_SET_ID_FOR_ADD,Do not set the id field while creating new entities.
+DUPLICATE_TEMP_IDS,Creating more than one entity with the same temp ID is not allowed.
+TEMP_ID_ENTITY_HAD_ERRORS,"Parent object with specified temp id failed validation, so no deep validation will be done for this child entity."

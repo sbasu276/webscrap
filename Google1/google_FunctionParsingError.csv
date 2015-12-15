@@ -1,0 +1,12 @@
+NO_MORE_INPUT,Unexpected end of function string.
+EXPECTED_CHARACTER,Could not find an expected character.
+UNEXPECTED_SEPARATOR,Unexpected separator character.
+UNMATCHED_LEFT_BRACKET,Unmatched left bracket or parenthesis.
+UNMATCHED_RIGHT_BRACKET,Unmatched right bracket or parenthesis.
+TOO_MANY_NESTED_FUNCTIONS,Functions are nested too deeply.
+MISSING_RIGHT_HAND_OPERAND,Missing right-hand-side operand.
+INVALID_OPERATOR_NAME,Invalid operator/function name.
+FEED_ATTRIBUTE_OPERAND_ARGUMENT_NOT_INTEGER,Feed attribute operand's argument is not an integer.
+NO_OPERANDS,Missing function operands.
+TOO_MANY_OPERANDS,Function had too many operands.
+UNKNOWN,

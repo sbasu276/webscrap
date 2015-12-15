@@ -1,0 +1,3 @@
+CANNOT_REFERENCE_DELETED_FEED,A feed referenced by ID has been deleted.
+INVALID_FEED_NAME,There is no active feed with the given name.
+INVALID_FEED_ATTRIBUTE_NAME,There is no feed attribute in an active feed with the given name.

@@ -1,0 +1,3 @@
+UNKNOWN,Error reason is unknown.
+INVALID_INPUT,Invalid input.
+UNSUPPORTED_VERSION,The api version in the request has been discontinued. Please update to the new AdWords API version.

@@ -1,0 +1,22 @@
+CANNOT_ADD_STANDARD_ICON,Cannot add a standard icon type
+CANNOT_SELECT_STANDARD_ICON_WITH_OTHER_TYPES,May only select Standard Icons alone
+DUPLICATE_MEDIA,A media with given type and reference id already exists
+EMPTY_FIELD,A required field was not specified or is an empty string.
+ENTITY_REFERENCED_IN_MULTIPLE_OPS,A media may only be modified once per call
+FIELD_NOT_SUPPORTED_FOR_MEDIA_SUB_TYPE,Field is not supported for the media sub type.
+INVALID_MEDIA_ID,The media id is invalid
+INVALID_MEDIA_TYPE,The media type is invalid
+INVALID_MEDIA_SUB_TYPE,The media subtype is invalid
+INVALID_REFERENCE_ID,The media reference id is invalid
+INVALID_YOU_TUBE_ID,The YouTube video id is invalid
+YOU_TUBE_VIDEO_NOT_FOUND,The YouTube video id is syntactically valid but the video was not found.
+YOU_TUBE_SERVICE_UNAVAILABLE,YouTube is unavailable for requesting video data.
+YOU_TUBE_VIDEO_HAS_NON_POSITIVE_DURATION,The YouTube video has a non positive duration.
+MEDIA_FAILED_TRANSCODING,Media has failed transcoding
+MEDIA_NOT_TRANSCODED,Media has not been transcoded
+MEDIA_TYPE_DOES_NOT_MATCH_OBJECT_TYPE,The MediaType does not match the actual media object's type
+NO_FIELDS_SPECIFIED,None of the fields have been specified.
+NULL_REFERENCE_ID_AND_MEDIA_ID,One of reference Id or media Id must be specified
+TOO_LONG,The string has too many characters.
+UNSUPPORTED_OPERATION,"The specified operation is not supported. Only ADD, SET, and REMOVE are supported"
+UNSUPPORTED_TYPE,

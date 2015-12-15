@@ -1,0 +1,7 @@
+UNABLE_TO_AUTHORIZE,Could not complete authorization due to an internal problem.
+NO_ADWORDS_ACCOUNT_FOR_CUSTOMER,Customer has no AdWords account.
+USER_PERMISSION_DENIED,User doesn't have permission to access customer.
+EFFECTIVE_USER_PERMISSION_DENIED,Effective user doesn't have permission to access this customer.
+USER_HAS_READONLY_PERMISSION,User has read-only permission cannot mutate.
+NO_CUSTOMER_FOUND,No customer found.
+SERVICE_ACCESS_DENIED,Developer doesn't have permission to access service.

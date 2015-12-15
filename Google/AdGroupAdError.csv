@@ -1,0 +1,8 @@
+AD_GROUP_AD_LABEL_DOES_NOT_EXIST,No link found between the adgroup ad and the label.
+AD_GROUP_AD_LABEL_ALREADY_EXISTS,The label has already been attached to the adgroup ad.
+AD_NOT_UNDER_ADGROUP,The specified ad was not found in the adgroup
+CANNOT_OPERATE_ON_REMOVED_ADGROUPAD,Removed ads may not be modified
+CANNOT_CREATE_DEPRECATED_ADS,An ad of this type is deprecated and cannot be created. Only deletions are permitted.
+EMPTY_FIELD,A required field was not specified or is an empty string.
+ENTITY_REFERENCED_IN_MULTIPLE_OPS,An ad may only be modified once per call
+UNSUPPORTED_OPERATION,"The specified operation is not supported. Only ADD, SET, and REMOVE are supported"

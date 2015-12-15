@@ -31,11 +31,9 @@ def make_soup(url):
         response = urlopen(url)
     except HTTPError, e:
         print >> sys.stderr, "HTTPError: ", url
-        traceback.print_exec()
         return False
     except URLError, e:
         print >> sys.stderr, "URLError: ", url
-        traceback.print_exec()
         return False
     soup = BeautifulSoup(response.read())
     return soup
@@ -57,12 +55,35 @@ def parse_rows(rows):
                 results.append([''.join(code.split()), ' '.join(message.split())])
     return results
 
+def parse_desclist(desclist):
+    """ Get data from description lists
+    """
+    codes = []
+    messages = []
+    results = []
+    dts = desclist.findAll('dt')
+    dds = desclist.findAll('dd')
+    # Get codes
+    for dt in dts:
+        code = ''.join(dt.findAll(text=True))
+        code = code.encode('utf8')
+        code = code.strip('\n')
+        codes.append(code)
+    # Get messages
+    for dd in dds:
+        message = ''.join(dd.findAll(text=True))
+        message = message.encode('utf8')
+        message = ' '.join(message.split())
+        messages.append(message)
+    for x,y in zip(codes, messages):
+        results.append([x,y])
+    return results
+
 def get_tables(soup):
     try:
         tables = soup.findAll('table')
     except AttributeError, e:
         print >> sys.stderr, "TableError: ", e
-        traceback.print_exec()
         return None
     return tables
 
@@ -87,13 +108,21 @@ def scrap_google(soup, filename):
     """ Scraps Error codes for Google Adwords
     """
     divtags = soup.findAll("div", {"class" : "tree"})
+    # Get errorclass links and names
     links = get_links(divtags[2])
+    dataset = []
     urlprefix = 'https://developers.google.com/adwords/api/docs/reference/v201509/'
     # Go to each link and scrap codes
     for link in links:
         url = urlprefix+str(link[0])
         page = make_soup(url)
-    #   Find patterns for data to scrap in each page and DO 
+        desclists = page.findAll('dl')
+        data = parse_desclist(desclists[len(desclists)-1])
+        outfilename = ''+str(link[1])
+        write_data_csv(outfilename, data)
+        dataset.append(data)
+    dataset = reduce(lambda x,y: x+y, dataset)
+    write_data_csv((filename+'_all_dump'), dataset)
 
 def scrap_bing(soup, filename):
     """ Scraps Error codes for Bing Ads
@@ -106,7 +135,6 @@ def scrap_bing(soup, filename):
             rows = table.findAll('tr')
         except AttributeError, e:
             print >> sys.stderr, "RowError: ", e
-            traceback.print_exec()
             return None
         dataset = parse_rows(rows[1:])
     filename = filename + '_all_dump'
@@ -134,7 +162,6 @@ def scrap_baidu(soup, filename):
             rows = table.findAll('tr')
         except AttributeError, e:
             print >> sys.stderr, "RowError: ", e
-            traceback.print_exec()
             return None
         table_data = parse_rows(rows[1:])
         
@@ -161,13 +188,11 @@ def scrap_yandex(soup, filename):
             tbody = table.findAll('tbody')
         except AttributeError, e:
             print >> sys.stderr, "AttributeError: ", e
-            traceback.print_exec()
         for entry in tbody:
             try:
                 rows = entry.findAll('tr')
             except AttributeError, e:
                 print >> sys.stderr, "RowError: ", e
-                traceback.print_exec()
             rowindex = 1
             if entry == tbody[0]:
                 errorclass = ''.join(rows[1].findAll(text=True))

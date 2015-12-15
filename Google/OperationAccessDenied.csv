@@ -1,0 +1,9 @@
+ACTION_NOT_PERMITTED,"Unauthorized invocation of a service's method (get, mutate, etc.)"
+ADD_OPERATION_NOT_PERMITTED,Unauthorized ADD operation in invoking a service's mutate method.
+REMOVE_OPERATION_NOT_PERMITTED,Unauthorized REMOVE operation in invoking a service's mutate method.
+SET_OPERATION_NOT_PERMITTED,Unauthorized SET operation in invoking a service's mutate method.
+MUTATE_ACTION_NOT_PERMITTED_FOR_CLIENT,"A mutate action is not allowed on this campaign, from this client."
+OPERATION_NOT_PERMITTED_FOR_CAMPAIGN_TYPE,This operation is not permitted on this campaign type
+ADD_AS_REMOVED_NOT_PERMITTED,An ADD operation may not set status to REMOVED.
+OPERATION_NOT_PERMITTED_FOR_REMOVED_ENTITY,This operation is not allowed because the campaign or adgroup is removed.
+UNKNOWN,The reason the invoked method or operation is prohibited is not known (the client may be of an older version than the server).
