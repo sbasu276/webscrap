@@ -1,0 +1,33 @@
+901401,'type' is not valid to get adgroups
+901411,Adgroup name already exists
+901412,Adgroup name is null
+901413,Adgroup name is longer than 30 bytes
+901414,Adgroups number exceeds 1000
+901421,Adgroup bid must be higher than 0 RMB
+901422,Adgroup bid must be lower than 999.99 RMB
+901425,Adgroup bid is null
+901431,Not authorized to pause/enable adgroups
+901440,Not authorized to set negative/exact negative keywords
+901441,Adgroup negative keyword number exceeds 200
+901442,Adgroup exact negative keyword number exceeds 200
+901443,Adgroup negative keyword is longer than 40 bytes
+901444,Adgroup exact negative keyword is longer than 40 bytes
+901447,Adgroup negative keywords conflict with existing keywords
+901448,Adgroup exact negative keywords conflict with existing keywords
+901449,Duplicate words between adgroup negative and exact negative keywords
+901450,Adgroup negative keywords include null chracters
+901451,Adgroup exact negative keywords include null chracters
+901452,Adgroup negative keywords include special chracters
+901455,Adgroup exact negative keywords include special chracters
+901461,Not authorized to set adgroup name
+901471,Not authorized to delete adgroup
+901472,"Accurate, phrases, wide three bid proportion must be input or without input."
+901473,Accurate bid proportion range error.
+901474,Phrases bid proportion range error
+901475,Wide bid proportion range error.
+901476,Points matching bid proportional state error.
+901477,All information must be submitted first to open sub-match mode
+901478,MatchPriceFactor must be accuPriceFactor> = wordPriceFactor> = widePriceFactor
+901479,Matchpricefactorstatus can not be null
+901481,The price ratio is unsupported
+901482,The price ratio of the unit is invalid

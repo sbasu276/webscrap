@@ -1,0 +1,26 @@
+9012,Do not have authorization to edit this account
+9013,System error
+9013001,Backend service is not available
+9013002,Backend service is not reachable
+9013003,Backend System Error
+9014,The request object is null
+9015,The request object contains null element
+9016,This is not a contract-signed user
+9019,The request data volume exceeds the limit
+90111,The campaign id does not exist
+90112,The adgroup id does not exist
+90113,The keyword id does not exist
+90114,The creative id does not exist
+90115,The campaign does not exist
+90116,The adgroup does not exist
+90117,The keyword does not exist
+90118,The creative does not exist
+90121,Do not have authorization to edit the campaign
+90122,Do not have authorization to edit the adgroup
+90123,Do not have authorization to edit the keyword
+90124,Do not have authorization to edit the creative
+90125,"The request is partial success due to data overload, please try again to ensure the full success"
+90126,"Duplicated item IDs in the request, only the operation of the last ID is confirmed."
+90127,Partial operations failed
+90128,The sublink Id does not exist
+90129,The mobileSublink id does not exist

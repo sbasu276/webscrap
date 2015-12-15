@@ -1,0 +1,8 @@
+9011701,The startDate is null
+9011702,The endDate is null
+9011703,The endDate is earlier than startDate
+9011704,The startDate for querying operation records should be later than today-1 month
+9011705,The optTypes contains invalid values
+9011706,The optLevel is null
+9011707,The optLevel is not supported
+9011708,The optContents contains invalid fields

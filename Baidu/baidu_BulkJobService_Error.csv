@@ -1,0 +1,61 @@
+901121,The parameter 'type' is not valid for getting changed items
+901122,The required startTime is null
+901123,The startTime must be earlier than endTime
+901124,The startTime can not be earlier than 3 month ago
+901125,The returned keyword number can not exceed 20000
+901126,The returned creatives number can not exceed 20000
+901127,The returned adgroup number can not exceed 20000
+9011271,Returned dynamic creative number exceeds 20000
+9011272,Returned sublink number exceeds 20000
+9011273,Returned mobile sublink number exceeds 20000
+9011274,Returned phone number exceeds 20000
+9011275,Returned bridge number exceeds 20000
+901128,The startTime can not be earlier than last month
+901131,Do not have authorization to set the account IP exclusion
+901132,The account IP exclusion include null element
+901133,The number of account IP exclusion can not exceeds 30
+901134,The account IP exclusion is not valid
+901135,The returned account IP exclusion number exceeds 33
+901136,The number of advanced account IP exclusion can not exceeds 3
+901141,Do not have authorization to set the account target regoin
+901142,The input target region is not valid
+901151,Do not have authorization to set the account budget
+901152,The account budget is less than 50 RMB
+901153,"The account budget is higher than 1,000,000 RMB"
+901154,Account budget setting times exceeds the daily limit
+901161,Invalid compression method
+901162,Last file task not finish
+901163,File ID not exist
+901164,"File process error, try again later"
+901165,The file is still in process
+901166,element is missing in campaignSelectedColumn
+901167,element is missing in adgroupSelectedColumn
+901168,element is missing in keywordSelectedColumn
+901169,element is missing in creativeSelectedColumn
+901170,selectedRow is invalid
+901171,campaignSelectedColumn is invalid
+901172,adgroupSelectedColumn is invalid
+901173,keywordSelectedColumn is invalid
+901174,creativeSelectedColumn is invalid
+901175,element 'temp' is required
+901176,NewCreativeType is invalid
+901177,Type is invalid
+901178,changedNewCreativeScales is invalid
+901179,operator is invalid
+901180,NewCreativeLevel is invalid
+901673,includePhraseType is invalid
+901183,extended input is invalid
+9011622,"System busy, your last download request is rejected, try again later please."
+9011633,Type should be assigned if the id is not null
+901129,Returned dynamic creative number exceeds 20000
+90116001,Your request fields is invalid
+90116002,Please input at least one level
+90116003,System Error
+90116004,System Error
+90116005,The download request has been cancelled
+90116006,System Error
+90116007,The itemType is invalid
+90116008,"The type is invalid(3:campaign,5:adgroup,8:campaign+adgroup only for dynamic creative)"
+90116009,Returned the item number exceeds 20000
+90116010,The type is invalid for the adgroup item(3:campaign)
+9013002,Backend service is not reachable

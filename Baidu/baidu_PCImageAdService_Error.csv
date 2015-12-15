@@ -1,0 +1,87 @@
+9251,User id not exist
+9253,System error
+925001,original url is null
+925101,image md5 is null
+925102,image md5 is wrong
+925103,original url is invalid
+925104,original url surffix is invalid
+925107,bind size is bigger than 10
+925109,targetid is invalid
+925110,batch bind size must be less than 200
+925113,adGroupId is null
+925114,contentId is null
+925115,content is null
+925116,"Duplicated item IDs in the request, only the operation of the last ID is confirmed"
+925117,contentId is invalid
+925118,contentId is not exist
+925119,"logoUrl pattern is invalid, need get it from process Image API"
+925120,campaignId is not exist
+925121,adGroupId is not exist
+9251000,batch adGroup size must be less than 1000
+9251090,pc image width must be 121
+9251091,pc image height must be 75
+9251092,pc image size must be less than 100k
+9251004,"PCImageAds subChainItem.title1 length must be in [4,50]"
+9251005,"PCImageAds subChainItem.title2 length must be in [4,50]"
+9251006,"PCImageAds subChainItem.title3 length must be in [4,50]"
+9251007,"PCImageAds subChainItem.title4 length must be in [4,50]"
+9251008,"PCImageAds subChainItem.title5 length must be in [4,50]"
+9251009,"PCImageAds subChainItem.title all length must be in [4,50]"
+9251010,"PCImageAds subChainItem.url1 length must be in [1,1024]"
+9251011,"PCImageAds subChainItem.url2 length must be in [1,1024]"
+9251012,"PCImageAds subChainItem.url3 length must be in [1,1024]"
+9251013,"PCImageAds subChainItem.url4 length must be in [1,1024]"
+9251014,"PCImageAds subChainItem.url5 length must be in [1,1024]"
+9251015,"logoUrl length must be in [1,1024]"
+9251016,logoUrl surffix must be http
+9251017,"PCImageAds subChainItem size must be in [1,5]"
+9251018,PCImageAds subChainItem.title1 include special characters
+9251019,PCImageAds subChainItem.title1 trigger blacklist
+9251020,PCImageAds subChainItem.title1 include invalid trademarks
+9251021,PCImageAds subChainItem.title1 include invalid brands
+9251022,Specific certifications required for the title1
+9251023,PCImageAds subChainItem.title2 include special characters
+9251024,PCImageAds subChainItem.title2 trigger blacklist
+9251025,PCImageAds subChainItem.title2 include invalid trademarks
+9251026,PCImageAds subChainItem.title2 include invalid brands
+9251027,Specific certifications required for the title2
+9251028,PCImageAds subChainItem.title3 include special characters
+9251029,PCImageAds subChainItem.title3 trigger blacklist
+9251030,PCImageAds subChainItem.title3 include invalid trademarks
+9251031,PCImageAds subChainItem.title3 include invalid brands
+9251032,Specific certifications required for the title3
+9251033,PCImageAds subChainItem.title4 include special characters
+9251034,PCImageAds subChainItem.title4 trigger blacklist
+9251035,PCImageAds subChainItem.title4 include invalid trademarks
+9251036,PCImageAds subChainItem.title4 include invalid brands
+9251037,Specific certifications required for the title4
+9251038,PCImageAds subChainItem.title5 include special characters
+9251039,PCImageAds subChainItem.title5 trigger blacklist
+9251040,PCImageAds subChainItem.title5 include invalid trademarks
+9251041,PCImageAds subChainItem.title5 include invalid brands
+9251042,Specific certifications required for the title5
+9251043,PCImageAds subChainItem.title all include special characters
+9251044,PCImageAds subChainItem.title all trigger blacklist
+9251045,PCImageAds subChainItem.title1 all include invalid trademarks
+9251046,PCImageAds subChainItem.title1 all include invalid brands
+9251047,Specific certifications required for the PCImageAds sublink
+9251048,PCImageAds subChainItem.url1 includes special chracters
+9251049,PCImageAds subChainItem.url1 includes invalid prefix
+9251050,PCImageAds subChainItem.url1 includes invalid suffix
+9251051,PCImageAds subChainItem.url1 domain conflicts with registered website
+9251052,PCImageAds subChainItem.url2 includes special chracters
+9251053,PCImageAds subChainItem.url2 includes invalid prefix
+9251054,PCImageAds subChainItem.url2 includes invalid suffix
+9251055,PCImageAds subChainItem.url2 domain conflicts with registered website
+9251056,PCImageAds subChainItem.url3 includes special chracters
+9251057,PCImageAds subChainItem.url3 includes invalid prefix
+9251058,PCImageAds subChainItem.url3 includes invalid suffix
+9251059,PCImageAds subChainItem.url3 domain conflicts with registered website
+9251060,PCImageAds subChainItem.url4 includes special chracters
+9251061,PCImageAds subChainItem.url4includes invalid prefix
+9251062,PCImageAds subChainItem.url4 includes invalid suffix
+9251063,PCImageAds subChainItem.url4 domain conflicts with registered website
+9251064,PCImageAds subChainItem.url5 includes special chracters
+9251065,PCImageAds subChainItem.url5includes invalid prefix
+9251066,PCImageAds subChainItem.url5 includes invalid suffix
+9251067,PCImageAds subChainItem.url5 domain conflicts with registered website

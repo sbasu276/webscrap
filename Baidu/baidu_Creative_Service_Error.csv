@@ -1,0 +1,60 @@
+901801,'getTemp' is not valid to get creative id
+901811,'type' is not valid to get creative
+901812,'getTemp' is not valid to get creative
+901813,Creative number exceeds 50
+901814,'type' is not valid to get creative status
+901821,Creative title is null
+901822,Creative description1 is null
+901823,Creative destination URL is null
+901824,Default keyword is null
+901831,Punctuation ^ exceeds one in creative title
+901832,Punctuation ^ is in the creative title beginning or end
+901833,Creative title must be longer than 8 bytes and no longer than 50 bytes
+901834,Creative title includes special chracters
+901835,Creative title triggers blacklist
+901836,Creative title includes invalid trademarks
+901837,Default keyword in creative title includes special characters
+901838,Default keyword in creative title triggers black list
+901839,Default keyword in creative title includes invalid trademarks
+901841,Punctuation ^ exceeds one in creative description1
+901842,Punctuation ^ is in creative description1 beginning or end
+901843,Creative description1 must be longer than 8 bytes and no longer than 80 bytes
+901844,Creative description1 includes special chracters
+901845,Creative description1 triggers blacklist
+901846,Creative description1 includes invalid trademarks
+901847,Default keyword in description1 includes special characters
+901848,Default keyword in description1 triggers blacklist
+901849,Default keyword in description1 includes invalid trademarks
+901851,Creative description2 is longer than 80 bytes
+901852,Creative description2 includes special chracters
+901853,Creative description2 triggers blacklist
+901854,Creative description2 includes invalid trademarks
+901855,Default keyword in description2 includes special characters
+901856,Default keyword in description2 triggers blacklist
+901857,Default keyword in description2 includes invalid trademarks
+901861,Creative pcDestinationUrl is longer than 1024 bytes
+901862,Creative mobileDestinationUrl is longer than 1017 bytes
+901863,Creative URL domain conflicts with the registered website
+901864,Creative URL domain confilcts with other users
+901865,Creative URL includes special chracters
+901866,Creative URL includes invalid suffix
+901867,Creative URL includes invalid prefix
+901871,Display URL is longer than 36 bytes
+901872,Display URL domain conflicts with the registered website
+901873,Display URL domain confilcts with other users
+901874,Display URL includes special chracters
+901875,Display URL includes invalid suffix
+901876,Display URL includes invalid prefix
+901881,Not authorized to pause/enable creatives
+901882,Creative title includes invalid brands
+901883,Default keyword in creative title includes invalid brands
+901884,Creative description1 includes invalid brands
+901886,Default keyword in description1 includes invalid brands
+901887,Creative description2 includes invalid brands
+901888,Default keyword in description2 includes invalid brands
+901891,Not authorized to delete creatives
+901892,Creative title+description triggers blacklist
+901893,Creative title+description includes invalid trademarks
+901894,Creative title+description includes invalid brands
+901895,"Specific certifications required for the creative, visit the URL page for more information"
+901868,Creative URL is invalid

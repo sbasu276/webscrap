@@ -1,0 +1,27 @@
+25,Field must contain the following values: Yes or No
+30,The array cannot be empty
+34,Invalid email format
+35,Invalid phone number format
+36,Invalid format for a time tag
+52,Authentication is temporarily unavailable
+53,Authorization error
+54,Not enough rights
+55,This method does not exist
+56,Request limit exceeded
+57,Limit exceeded for simultaneous requests of the method
+58,No access
+71,Invalid request parameters
+80,The object was not deleted.
+241,Maximum array size exceeded
+500,Internal server error
+501,Invalid request
+503,Service temporarily unavailable
+504,A scheduled interruption in the server's operation. Repeat the request later
+506,Simultaneous requests limit exceeded
+508,The requested API version is not available
+509,This method is not available in this API version
+510,Access denied
+511,Unknown language
+512,Invalid request method
+513,Your login is not enabled for Yandex.Direct
+514,Internal server error. Please contact the support service.

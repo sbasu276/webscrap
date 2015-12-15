@@ -1,0 +1,15 @@
+901501,Duplicated folder names in the request
+901502,Folder name exists in system
+901503,Folder name is longer than 30 bytes
+901504,Folder name is null
+901505,Foler number exceeds 20
+901506,Folder id not exist
+901507,Duplicated folder ids in the request
+901508,Monitor keyword nubmer exceeds 2000
+901509,Monitor id not exist
+901510,Duplicated monitors in the request
+901511,Monitor exists in the folder
+901512,Duplicated monitorId in the request
+901513,Duplicated keywordId in the request
+9014,The request object is null
+90113,The keyword id does not exist

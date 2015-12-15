@@ -1,0 +1,93 @@
+901910,"Server internal error, please try again later."
+901911,"The request data is too much, please scale down your request and try again"
+901912,"The request time out, please adjust your request or try again later"
+901913,You are not authorized to get this report
+901914,"You are not authorized to get the impression,ctr,cpm"
+901915,The report ID is not valid
+901916,The report ID is null
+901917,The report ID format is invalid
+901918,"Server internal error, please try again later"
+901919,"The request time out, please adjust your request or try again later"
+901920,The request platform is invalid
+901921,The request reportType is invalid
+901922,The request unitOfTime is invalid
+901923,The request report format is invalid
+901924,The request performance data is invalid
+901925,The input region ids of regionReport is invalid
+901930,The startDate is null or earlier than 20010917
+901931,The endDate is null
+901932,The endDate is earlier than startDate
+901933,The startDate for keyword(keywordid) report can not be earlier than 20091031
+901934,The startDate for region report can not be earlier than 20090420
+901935,"For query report, If after noon 11:51, the startDate can be between[yesterday, yesterday-31], if before noon 11:51, the startDate can be between[the day before yesterday, the day before yesterday-31] , and the endDate-startDate should not be longer than 31"
+901936,"For query report, If after noon 11:51, the endDate can be between[yesterday, yesterday-31], if before noon 11:51, the endDate can be between [the day before yesterday, the day before yesterday-31] , and the endDate-startDate should not be longer than 31"
+901937,The time range(endDate-startDate) of keyword creative pairing report can not be longer than 31
+901940,The timeofUnit of query report can only be daily
+901950,The levelOfDetails for account report can only be account level
+901951,The levelOfDetails for campaign report can only be campaign level
+901952,The levelOfDetails for agroup report can only be adgroup level
+901953,The levelOfDetails for keyword(wordid) report can only be wordid level
+901954,The levelOfDetails for keyword(keywordid) report can only be keywordid level
+901955,The levelOfDetails for creative report can only be creative level
+901956,"The levelOfDetails for region report can only be campaign, adgroup or wordid level"
+901957,The levelOfDetails for query report can only be creative level
+901958,The levelOfDetails for pairing report can only be keyword-creative level
+901960,The range for account report can only be account level
+901961,"The range for campaign report can only be account, campaign lelve"
+901962,"The range for adgroup report can only be account, campaign, adgroup level"
+901963,"The range for keyword(wordid) report can only be account, campaign, adgroup, wordid level"
+901964,"The range for keyword(keywordid) report can only be account, campaign, adgroup, keywordid level"
+901965,"The range for creative report can only be account, campaign, adgroup, creative level"
+901966,"The range for pairing report can only be account, campaign, adgroup, creative, keywordid level"
+901967,"The range for query report can only be account, campaign level"
+901968,The report range can not be more detail than its levelOfDetails
+901970,The platform for keyword creative pairing report can only be search
+901971,The platform for query report can only be search
+901972,The platform for keyword(keywordid) report can not be content
+901973,The platform for keyword(wordid) report can not be content
+901974,The platform can only be search when the levelOfDetails of region report is keywordid
+901980,The startDate can not be earlier than 20081031 when request impression related performance data
+901981,The account report can not provide average position in performance data
+901982,Region report can not provide average position when start date is earlier than 20081031
+901983,Region report can not provide average position if platform is not search
+901984,Creative report can not provide average position when start date is earlier than 20081031
+901985,Creative report can not provide average position if platform is not search
+901986,Keyword(keywordid) report can not provide average position when start date is earlier than 20081031
+901987,Keyword(keywordid) report can not provide average position if platform is not search
+901988,Keyword(wordid) report can not provide average position when start date is earlier than 20081031
+901989,Keyword(wordid) report can not provide average position if platform is not search
+901990,The keyword-creative pairing report can not provide average position in performance data
+901991,The campaign report can not provide average position in performance data
+901992,The query report can not provide average position in performance data
+901993,The adgroup report can not provide average position in performance data
+901994,The query report can only provide impression data
+901995,The startDate for pairing report can not be earlier than 20091201
+901996,The startDate for region report can not be earlier than 20091201 when levelOfDetails is keywordid level
+901997,The number is over 5000
+901998,The timespan is over 367
+901999,Dataitem size is litte than 3
+9011000,Lack required dataitem
+9011004,The xijing sublink report can not provide average position in performance data
+9011005,The levelOfDetails for xijing sublink report illegal
+9011006,The range for xijing sublink report illegal
+9011007,The xijing sublink report can not provide conversion in performance data
+9011008,The device for historical rank report should be 1(PC) or 2(MOBILE).
+9011009,The startDate for daily data of historical rank report should not be earlier than today-30
+9011010,The startDate for hour's data of historical rank report should not be earlier than today-2
+9011011,The request unitOfTime is invalid
+9011012,The levelOfDetails for historical rank report can only be keyword
+9011013,"The range for historical rank report can only be account, keyword"
+9011014,The order for historical rank report should be set to null
+9011015,The performanceData for historical rank report should not be empty
+9011016,The startDate for sublink report should not be earlier than today-89
+9011017,"The request unitOfTime is invalid(choose from 3,4,5)"
+9011018,The levelOfDetails for sublink report can only be keyword(6)
+9011019,The Statistics range for sublink report can only be account(2)
+9011020,The order for sublink report should be set to null
+9011021,The performanceData can only choose form (cost cpc click impression ctr)
+9011027,The platform for this request is invalid
+9011028,"The report request is refused, requested too frequently."
+9011031,The endDate can't be later than today
+9011033,The date format of this request is invalid(yyyy-MM-dd)
+9011036,The startDate is illegal(The startDate can't be 31 days' earlier than today for the hour report).
+9011040,The report is still in process

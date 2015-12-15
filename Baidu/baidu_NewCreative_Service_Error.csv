@@ -1,0 +1,27 @@
+9011500,"Sublink conflicts with existing Sublink, now one adgroup only support one Sublink"
+9011501,Destination URL is null
+9011502,"Destination URL is invalid, URL must start with http:// or https://"
+9011503,Duplicated destination URLs
+9011504,Destination URL is longer than 1024 bytes
+9011505,Sublink URL domain conflicts with registered website
+9011506,URL includes invalid suffix
+9011507,URL includes invalid prefix
+9011508,URL includes invalid special chracters
+9011509,Description is null
+9011510,Duplicated descriptions
+9011511,"Sublink must have no less than three descriptions and their corresponding destination URLs , and no more than five descriptions and their corresponding destination URLs"
+9011512,Each Sublink description less than 16 bytes. Max total length of descriptions in the array is 56 bytes
+9011513,Description includes invalid brands
+9011514,Description includes invalid trademarks
+9011515,Description includes special chracters
+9011516,Description triggers blacklist
+9011517,"Specific certifications required for the sublink, visit the URL page for more information"
+9011518,'getTemp' is not valid
+9011521,user can not operate sublink
+90130,The phone Id does not exist
+9011612,"Each MobileSublink description less than 16 bytes. Max total length of descriptions the array is 32 bytes. When a MobileSublink has only one description, its length must more than 8 bytes."
+9011621,"Phone conflicts with existing phone, now one adgroup only support one phone"
+9011620,PhoneNum input is invalid
+90130,The bridge Id does not exist
+9011630,You have not opened the bridge function
+9011631,"Bridge conflicts with existing bridge, now one adgroup only support one bridge"

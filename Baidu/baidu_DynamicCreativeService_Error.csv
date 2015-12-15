@@ -1,0 +1,14 @@
+901137,The dynamic creative param is invalid
+9012900,The exclusion type is invalid
+9012901,The number of exclusion url is more than 20
+9012902,The number of exclusion word is more than 50
+9012903,The exclusioncontent is invalid
+9012904,The exclusion type num is over limit
+9012905,The exclusion type not exists
+9011040,DynCreatives are too much in campaign
+9011041,DynCreatives are too much in adgroup
+9011042,DynCreative is duplicated
+9011043,DynCreative title is longer than 32 chars
+9011044,DynCreative url is longer than 1017 chars
+9011047,The dynCreativeId is not exist
+9011048,The adgroup is not belong to the campaign

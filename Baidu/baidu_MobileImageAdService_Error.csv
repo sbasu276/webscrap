@@ -1,0 +1,28 @@
+9251100,"MobileImageAds subtitle1 length must between 18,26"
+9251101,"MobileImageAds subtitle2 length must between 18,26"
+9251102,"MobileImageAds subtitle3 length must between 18,26"
+9251103,"MobileImageAds logoUrl length must be in [1,1024]"
+9251104,MobileImageAds logoUrl preffix must be http
+9251110,MobileImageAds subtitle1 include special characters
+9251111,MobileImageAds subtitle1 trigger blacklist
+9251112,MobileImageAds subtitle1 include invalid trademarks
+9251113,MobileImageAds subtitle1 include invalid brands
+9251114,Specific certifications required for the subtitle1
+9251115,MobileImageAds subtitle2 include special characters
+9251116,MobileImageAds subtitle2 trigger blacklist
+9251117,MobileImageAds subtitle2 include invalid trademarks
+9251118,MobileImageAds subtitle2 include invalid brands
+9251119,Specific certifications required for the subtitle2
+9251120,MobileImageAds subtitle3 include special characters
+9251121,MobileImageAds subtitle3 trigger blacklist
+9251122,MobileImageAds subtitle3 include invalid trademarks
+9251123,MobileImageAds subtitle3 include invalid brands
+9251124,Specific certifications required for the subtitle3
+9251125,MobileImageAds all subtitle include special characters
+9251126,MobileImageAds all subtitle trigger blacklist
+9251127,MobileImageAds all subtitle include invalid trademarks
+9251128,MobileImageAds all subtitle include invalid brands
+9251129,Specific certifications required for all subtitle
+9251140,Mobile image width must be 108px
+9251141,Mobile image height must be 108px
+9251142,Mobile image size must be less than 5k

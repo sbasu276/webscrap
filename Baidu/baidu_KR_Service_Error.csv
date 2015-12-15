@@ -1,0 +1,39 @@
+9011038,The device of KR is invalid
+901616,The request device is invalid
+901693,Price for keyword estimation is not valid
+901701,Seed Word is null
+901702,Seed Word is longer than 64 bytes
+901703,Seed Word Array is null
+901704,Seed Word array includes null element
+901705,Seed Word number exceeds 100
+901706,Positive word is longer than 64 bytes
+901710,Invalid Match Type
+901711,Negative word number exceeds 10
+901712,Negative word is longer than 64 bytes
+901713,The pv lower limit is not valid
+901714,The pv upper limit is not valid
+901715,The pv lower limit is higher than the upper limit
+901716,The competition lower limit is not valid
+901717,The competition upper limit is not valid
+901718,The competition lower limit is higher than the upper limit
+901719,The search region is not valid
+901720,The maximum return number is not valid
+901722,The request KRFile ID is null
+901723,The request KRFile ID not exist
+901724,The request KR File is still in processing
+901725,No authorization to remove duplicate on the user id
+901726,User id not exist
+901727,Access time out
+901728,System error
+901729,Negative word array includes null element
+901730,Search Region array includes null element
+901741,Seed URL is null
+901742,Seed URL is longer than 1023 bytes
+901743,'type' is not valid to get KR results
+901755,Last file task not finish
+901756,Seed Word number exceeds 100
+901761,The query type is not valid
+9014001,"System busy, try again later please"
+9014002,"System busy, your request is rejected, try again later please"
+9014003,"The request time out, please adjust your request or try again later"
+8502,You do not have enough KR quota

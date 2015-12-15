@@ -1,0 +1,128 @@
+1,Invalid CampaignID
+2,There are no statistics for this campaign
+3,Invalid date
+5,Invalid time interval
+8,Invalid limits
+9,This field must be an array
+10,Invalid banner filter parameters
+11,Invalid geotargeting filter parameters
+12,Invalid website filter parameters
+13,Invalid website type filter parameters
+14,Invalid keyword settings filter parameters
+15,Bad page type
+16,Invalid group by date settings
+17,Invalid name for a report field
+18,Invalid offset
+20,Invalid report type
+21,Invalid report compression method
+22,Invalid ReportID
+23,Invalid BannerID
+24,The specified report does not exist
+31,Report queue limit reached
+32,Invalid PositionType
+33,Invalid target filter parameters
+48,Invalid filter parameters
+94,There are no statistics for these campaigns.
+25,Field must contain the following values: Yes or No
+30,The array cannot be empty
+34,Invalid email format
+35,Invalid phone number format
+36,Invalid format for a time tag
+52,Authentication is temporarily unavailable
+53,Authorization error
+54,Not enough rights
+55,This method does not exist
+56,Request limit exceeded
+57,Limit exceeded for simultaneous requests of the method
+58,No access
+71,Invalid request parameters
+80,The object was not deleted.
+241,Maximum array size exceeded
+500,Internal server error
+501,Invalid request
+503,Service temporarily unavailable
+504,A scheduled interruption in the server's operation. Repeat the request later
+506,Simultaneous requests limit exceeded
+508,The requested API version is not available
+509,This method is not available in this API version
+510,Access denied
+511,Unknown language
+512,Invalid request method
+513,Your login is not enabled for Yandex.Direct
+514,Internal server error. Please contact the support service.
+72,Invalid ForecastID
+73,The specified budget forecast report does not exist
+74,Forecast report is being generated
+76,Invalid keyword
+77,Invalid GeoID
+78,Report temporarily unavailable
+91,The specified wordstat report does not exist
+92,Wordstat report is being generated
+93,Invalid WordstatReportID
+26,The value must be between 0 and 100 in multiples of 10
+27,Invalid BannerID
+28,Invalid PhraseID
+29,Invalid campaign type
+37,Invalid strategy parameters
+39,Invalid ad ID
+49,Invalid ad group ID
+111,Invalid campaign settings
+113,Invalid campaign filter parameters
+114,Exceeded limit on number of campaigns
+151,Invalid banner settings
+152,Not enough Yandex units
+153,Maximum banner limit exceeded in request
+154,Invalid PointOnMap structure
+155,This action cannot be performed on this campaign or ad
+156,Changes are not allowed in archived campaigns and ads
+157,Exceeds the limit on ads per campaign
+158,Exceeds the limit on ads per group
+192,Invalid negative keywords
+193,"Exceeded the maximum amount of 10,000 keywords"
+194,Keyword not found
+195,Group must contain a minimum of one active keyword or retargeting condition
+245,Invalid currency value
+191,The ContextPrice for keywords active on search cannot be changed
+242,Invalid price
+243,Invalid Autobroker value
+244,No keywords found
+251,Invalid user login
+252,Login occupied
+253,An error occurred while creating login
+254,An error occurred while creating client
+255,Client cannot be linked to agency
+256,The specified agency does not exist
+257,The user's rights cannot be updated
+258,An error occurred while creating client
+259,This client does not exist
+518,Currency not available for the agency
+350,Invalid financial transaction token
+351,Invalid transaction number
+352,Financial transactions are not permitted for your account
+353,Invalid money transfer request
+354,Invalid invoice request
+355,Credit limit exceeded
+356,Invalid contract ID
+357,Invalid campaign payment request regarding credit limits
+358,Financial transactions are temporarily unavailable
+359,A MasterToken does not exist for this client
+363,Overdraft unavailable
+364,Overdraft limit exceeded
+46,Invalid retargeting ID
+47,Invalid retargeting condition ID
+271,Image not found
+272,Invalid image
+273,Image pool size exceeded
+274,Error when saving a file
+515,Shared account must be connected
+517,Cannot update information for this AccountID
+518,Currency not available for the agency
+519,Shared account already connected
+520,"To enable the shared account, create at least one campaign"
+521,Working with the shared account is forbidden. The agency must enable the shared account feature for its clients
+208,Existing retargeting condition was updated
+209,The bid for the retargeting condition was ignored because Autobudget is enabled
+210,Condition was not added. Group already contains the specified condition
+211,The condition ID RetargetingConditionID was ignored
+212,Keyword already stopped
+213,Keyword not stopped

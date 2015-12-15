@@ -1,0 +1,23 @@
+26,The value must be between 0 and 100 in multiples of 10
+27,Invalid BannerID
+28,Invalid PhraseID
+29,Invalid campaign type
+37,Invalid strategy parameters
+39,Invalid ad ID
+49,Invalid ad group ID
+111,Invalid campaign settings
+113,Invalid campaign filter parameters
+114,Exceeded limit on number of campaigns
+151,Invalid banner settings
+152,Not enough Yandex units
+153,Maximum banner limit exceeded in request
+154,Invalid PointOnMap structure
+155,This action cannot be performed on this campaign or ad
+156,Changes are not allowed in archived campaigns and ads
+157,Exceeds the limit on ads per campaign
+158,Exceeds the limit on ads per group
+192,Invalid negative keywords
+193,"Exceeded the maximum amount of 10,000 keywords"
+194,Keyword not found
+195,Group must contain a minimum of one active keyword or retargeting condition
+245,Invalid currency value

@@ -1,0 +1,22 @@
+9073,system error
+9074,param error
+9075,no auth
+907200,"add remarket people limited, people's count can not be more than 200"
+907201,The Json message you provided is invalid
+907202,people name is too long
+907203,"duration must belong to (1,3,7,15,30,60)"
+907204,"level must belong to (1,2)"
+907205,"levelids and showwords are all empty, must fill one"
+907206,show words' count can not be more than 20000
+907207,people ids' count is 0
+907208,Tpeople ids' count can not be more than 200
+907209,people id is null
+907210,plan name is null
+907211,plan name is too long
+907212,"showprob must belong to (1,2)"
+907213,wregion is empty
+907214,planid is null
+907215,"add plan limited, plan's count can not be more than 100"
+907216,"not remarketing plan, can not bind people"
+907217,one plan can mostly bind 100 include peoples
+907218,one plan can mostly bind 2 exclude peoples

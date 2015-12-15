@@ -1,0 +1,25 @@
+1,Invalid CampaignID
+2,There are no statistics for this campaign
+3,Invalid date
+5,Invalid time interval
+8,Invalid limits
+9,This field must be an array
+10,Invalid banner filter parameters
+11,Invalid geotargeting filter parameters
+12,Invalid website filter parameters
+13,Invalid website type filter parameters
+14,Invalid keyword settings filter parameters
+15,Bad page type
+16,Invalid group by date settings
+17,Invalid name for a report field
+18,Invalid offset
+20,Invalid report type
+21,Invalid report compression method
+22,Invalid ReportID
+23,Invalid BannerID
+24,The specified report does not exist
+31,Report queue limit reached
+32,Invalid PositionType
+33,Invalid target filter parameters
+48,Invalid filter parameters
+94,There are no statistics for these campaigns.

@@ -1,0 +1,12 @@
+350,Invalid financial transaction token
+351,Invalid transaction number
+352,Financial transactions are not permitted for your account
+353,Invalid money transfer request
+354,Invalid invoice request
+355,Credit limit exceeded
+356,Invalid contract ID
+357,Invalid campaign payment request regarding credit limits
+358,Financial transactions are temporarily unavailable
+359,A MasterToken does not exist for this client
+363,Overdraft unavailable
+364,Overdraft limit exceeded

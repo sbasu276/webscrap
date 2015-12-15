@@ -1,0 +1,47 @@
+90114001,the strategy name is too long
+90114003,the strategy name is exist
+90114005,too many strategy has been created
+90114007,the isPause value is invalid
+90114009,the bid type is invalid
+90114011,the up bid rate is invalid
+90114015,target rank is invalid
+90114017,parameters in labcore is invalid
+90114019,labcore system error
+90114021,the strategy is not exist
+90114023,too many strategy word in strategy
+90114025,too many strategy word for user
+90114027,word not existed
+90114029,word already in a strategy
+90114031,the PC max bid is invalid
+90114033,the Mobile max bid is invalid
+90114035,word not in strategy
+90114601,the strategy name is null
+90114603,the isPause value is null
+90114605,the bid type is null
+90114607,target rank is null
+90114609,upbidrate is null
+90114611,pcmaxbid is null
+90114613,mobilemaxbid is null
+90114615,upbidrate is not null
+90114617,pcmaxbid is not null
+90114619,mobilemaxbid is not null
+90114621,request is null
+90114623,lab system error
+90114625,strategy id is null
+90114627,ids is null
+90114629,start date is null
+90114631,end date is null
+90114633,device is null
+90114635,unitOfTime is null
+90114637,duration is null
+90114639,start date should less than 30 days till now
+90114641,end date should not after today
+90114643,end date is before start date
+90114645,device is invalid
+90114647,strategy not exsited
+90114649,unitOfTime is invalid
+90114651,start date is not equal to end date
+90114653,duration is invalid
+90114655,strategy word is not existed
+90114657,"start date's format is invalid, it should be 'yyyy-MM-dd'"
+90114659,"end date's format is invalid, it should be 'yyyy-MM-dd"

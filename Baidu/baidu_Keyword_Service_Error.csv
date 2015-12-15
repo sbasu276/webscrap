@@ -1,0 +1,37 @@
+901601,'getTemp' is not valid to get keyword IDs
+901611,'type' is not valid to get keywords
+901612,'getTemp' is not valid to get keywords
+901613,'type' is not valid to get keyword status
+901614,'type' is not valid to get keyword quality
+901631,Duplicate words in submitted keywords
+901632,Keyword includes line breaks
+901633,Keyword is null
+901634,Keyword is longer than 40 bytes
+901635,Keyword conflicts with existing keywords
+901636,Keywords conflict with existing negative or exact negative keywords
+901637,Keywords include special chracters
+901638,Keywords trigger blacklist
+901639,Keywords include invalid trademarks
+901640,Keywords include invalid brands
+901641,Keyword match type is not valid
+901651,Keyword bid must be higher than 0
+901652,Keyword bid must be lower than 999.99
+901662,Keyword pcDestinationUrl is longer than 1024 bytes
+901669,Keyword mobileDestinationUrl is longer than 1017 bytes
+901663,Keyword URL domain conflicts with registered website
+901664,Keyword URL domain conflicts with other users
+901665,Keyword URL includes special chracters
+901666,Keyword URL includes invalid suffix
+901667,Keyword URL includes invalid prefix
+901671,Keyword number exceeds 5000
+901681,Not authorized to pause/enable keywords
+901691,Not authorized to delete keywords
+901668,Keyword URL is invalid
+901672,phraseType is invalid
+901674,extended is invalid
+9011035,The type of id is invalid
+9011036,The type of device is invalid
+9011037,The length of id is invalid
+9011754,To enable the unit matching bid ratio parameter error
+901630,Keyword URL domain is illegal
+901860,Creative URL domain is illegal

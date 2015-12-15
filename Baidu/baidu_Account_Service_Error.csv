@@ -1,0 +1,43 @@
+901111,The parameter 'type' is not valid for getting account financial information
+901121,The parameter 'type' is not valid for getting changed items
+901122,The required startTime is null
+901123,The startTime must be earlier than endTime
+901124,The startTime can not be earlier than 3 month ago
+901125,The returned keyword number can not exceed 20000
+901126,The returned creatives number can not exceed 20000
+901127,The returned adgroup number can not exceed 20000
+901128,The startTime can not be earlier than last month
+901131,Do not have authorization to set the account IP exclusion
+901132,The account IP exclusion include null element
+901133,The number of account IP exclusion can not exceeds 30
+901134,The account IP exclusion is not valid
+901135,The returned account IP exclusion number exceeds 33
+901136,The number of advanced account IP exclusion can not exceeds 3
+901141,Do not have authorization to set the account target regoin
+901142,The input target region is not valid
+901151,Do not have authorization to set the account budget
+901152,The account budget is less than 50 RMB
+901153,"The account budget is higher than 1,000,000 RMB"
+901154,Account budget setting times exceeds the daily limit
+901161,Invalid compression method
+901162,Last file task not finish
+901163,File ID not exist
+901164,"File process error, try again later"
+901165,The file is still in process
+901166,element is missing in campaignSelectedColumn
+901167,element is missing in adgroupSelectedColumn
+901168,element is missing in keywordSelectedColumn
+901169,element is missing in creativeSelectedColumn
+901170,selectedRow is invalid
+901171,campaignSelectedColumn is invalid
+901172,adgroupSelectedColumn is invalid
+901173,keywordSelectedColumn is invalid
+901174,creativeSelectedColumn is invalid
+901175,element 'temp' is required
+901176,NewCreativeType is invalid
+901177,Type is invalid
+901178,changedNewCreativeScales is invalid
+901179,operator is invalid
+901180,NewCreativeLevel is invalid
+901673,includePhraseType is invalid
+901183,extended input is invalid

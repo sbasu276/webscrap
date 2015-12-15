@@ -1,0 +1,34 @@
+800,"Server internal error, please try again later"
+801,Request forbidden on this IP for frequent username password or token errors
+802,Request forbidden for frequent password errors
+8001,"Invalid SOAP version, please use SOAP/1.1 instead"
+8002,The Json message you provided is invalid
+8101,Username is not set in request header
+8102,"The username is invalid, please contact administrator"
+8103,"The username is invalid, please contact administrator"
+8104,The username in request header is not authorized to login
+8201,Password is not set in request header
+8202,The password is invalid
+8301,The target in request header is invalid
+8303,The target in request header is not authorized to login
+8401,Token is not set in request header
+8402,"The token is invalid, please contact administrator"
+8403,"The token is deleted, please contact administrator"
+8404,"You didn't apply for Search Marketing API Service, please contact administrator"
+8405,"You didn't apply for Network Marketing API Service, please contact administrator"
+8406,You are not authorized to login Search Marketing Editor Service
+8407,You are not authorized to login Network Marketing Editor Service
+8408,You are not authorized to use the token provided in request header
+8409,You are not authorized to operate the target provided in request header
+8410,You are not authorized to use the token provided in request header
+8411,You are not authorized to operate other users
+8412,You are not authorized to use this token
+8501,You do not have enough quota
+8601,"We are unable to serve your request, please try again later"
+8602,"We are unable to serve your request, please try again later"
+8603,The request header you provided is isvalid
+8604,"We are unable to serve your request, please try again later"
+8605,"We are unable to serve your request, please try again later"
+8606,"We are unable to serve your request, please try again later"
+8607,The soap message you provided is invalid
+8611,"Time out exception, please try again later"

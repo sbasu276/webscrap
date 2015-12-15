@@ -1,0 +1,45 @@
+901201,Campaign name is null
+901202,Campaign name is longer than 30 bytes
+901203,Campaign name already exists
+901204,Campaign number exceeds 100
+901205,Not authorized to set campaign name
+901211,joinContent is null
+901212,contentPrice is null when join content
+901213,contentPrice should be higher than 0 and lower than 999.99
+901221,Not authorized to pause/enable campaign
+901231,Not authorized to set campaign budget
+901232,Campaign budget is less than 50 RMB
+901233,Campaign budget is more than 1000000 RMB
+901155,Campaign weekly budget is less than 50 RMB
+901156,Campaign weekly budget is more than 10000000 RMB
+901235,Campaign budget setting times exceeds daily limit
+901241,Not authorized to set campaign target region
+901242,Target region can only be set administrator
+901243,Campaign target region is not valid
+901250,Not authorized to set negative/exact negative keywords
+901251,Campaign negative keyword number exceeds 200
+901252,Campaign exact negative keyword number exceeds 200
+901253,Campaign negative keyword is longer than 40 bytes
+901254,Campaign exact negative keyword is longer than 40 bytes
+901255,Duplicated words in campaign negative keywords
+901256,Duplicated words in campaign exact negative keywords
+901257,Campaign negative keywords conflict with existing keywords
+901258,Campaign exact negative keywords conflict with existing keywords
+901259,Duplicated words between campaign negative and exact negative keywords
+901260,Campaign negative keywords include null chracters
+901261,Campaign exact negative keywords include null chracters
+901262,Campaign negative keywords include special chracters
+901265,Campaign exact negative keywords include special chracters
+901271,Not authorized to set campaign IP exclusion
+901272,Campaign IP exclusion includes null element
+901273,Campaign IP exclusion is not valid
+901274,Campaign IP exclusion number exceeds 20
+901275,The returned campaign IP exclusion number exceeds 20
+901281,Creative display param is not valid
+901291,Not authorized to set campaign schedules
+901292,Campaign schedule is not valid
+901294,Campaign schedule format is not valid
+901295,Campaign schedule startTime is later than endTime
+901301,Not authorized to delete campaigns
+901303,device input is not valid
+901305,priceRatio input is not valid
