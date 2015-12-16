@@ -1,0 +1,15 @@
+20002,You have submitted an invalid account.
+20003,The number is too big.
+20004,The number is too small.
+30002,"Parameter is invalid. Please make sure the parameter is not duplicated, lost or empty."
+40002,Parameter is invalid.
+40003,The keyword has too many characters.
+40004,Your request contains an enumeration type value that is not valid.
+50002,Parameter specified in the request is lost or empty.
+50004,Number of elements exceed maximum allowed in this request.
+80001,You specified duplicated value.
+80003,AdGroup in the request was not found.
+80004,Keyword in the request was not found.
+80006,Number of keyword token exceed maximum allowed in this request.
+80007,No search term or URL is specified. When you specify EXCLUDED_KEYWORD you need to specify RELATED_TO_KEYWORD or RELATED_TO_URL.
+120026,Biddable keyword is required.

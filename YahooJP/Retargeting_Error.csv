@@ -1,0 +1,18 @@
+210800,The date has been set earlier than the available date range
+210801,The date has been set later than the available date range
+210802,Adult account cannot be selected.
+210803,Account that retargeting been stopped from review.
+210804,Cannot set the new default list to the account that has already set the default list.
+210805,Target list name is already registered.
+210806,Cannot set condition list or combination list to the account that do not have default list registered.
+210807,”CLOSE” has been selected to the selected default list.
+210808,Selecting the operator that cannot be selected.
+210809,Selecting combination target list to combination list.
+210815,Please select multiple target lists for combination list.
+210816,Cannot select “NOT” condition only in combination list setting.
+210810,Review is not approved for the selected target list.
+210810,Review is not approved for the selected target list.
+210811,Selected target list does not exist.
+210812,Selected target list is already registered.
+210813,Bidding setting been requested to the campaign or ad group that made exclude setting.
+210814,Combination of target or exclude list to the selected ad group ID is already registered.

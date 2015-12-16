@@ -1,0 +1,27 @@
+20110005,You have submitted invalid account IDs.
+20110006,Account IDs exceed maximum allowed.
+20110007,You have submitted invalid account IDs. One of the account ID indicated in the request is not valid.
+20110011,You have submitted an invalid account statuses.
+20110012,Account statuses exceed maximum allowed.
+20110013,You have submitted an invalid account statuses. One of the account status indicated in the request is not valid.
+20130008,You have submitted an invalid account.
+20130009,Account is required.
+20130010,Accounts exceed maximum allowed.
+20130011,You have submitted an invalid account ID.
+20130012,Account ID is required.
+20130013,You have specified a duplicate account ID.
+20130014,Account ID indicated in the request was not found.
+20130015,You cannot perform write operations for this accout.
+20130019,Account name specified in the request is not a valid account name.
+20130020,Account name specified in the request is empty. It should be not empty.
+20130021,Account name is too long.
+20130022,Account Type is read-only.
+20130027,Delivery status specified in the request is not a valid delivery status.
+20130028,You can not specify delivery status.
+20410003,Account ID is required.
+20410004,You have submitted an invalid account ID
+20410005,Account IDs exceed maximum allowed.
+20410006,You have submitted invalid account IDs. One of the account ID indicated in the request is not valid.
+20410007,One of the account IDs indicated in the request was not found. Check your account IDs.
+20410008,This operation is not applicable for account which choose payment type is invoice.
+20410009,The operation failed to get account balance.

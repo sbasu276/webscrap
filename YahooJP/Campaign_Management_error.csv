@@ -1,0 +1,80 @@
+0018,Failed operations due to data size excess.
+10100,The entity is having status as deleted. This error may also result if account status is not active or the entity does not exist.
+10200,"To update destinationUrl at keyword BiddableAdGroupCriterion, approbalStatus of the keyword must be ""APPROVED"""
+10300,Number of entities exceed maximum allowed. Please reduce the size of your request and submit it again.
+10400,"The name you specified for a campaign, ad group, ad was not unique. Please choose one that is unique."
+10501,Accelerated delivery method is not supported for budget optimizer. This error may also result if biddingStrategyType does not match campaign's biddingStrategyType.
+10601,You cannot set/add amount greater than the amount specified for the campaign budget.
+10602,Have to set/add amount greater than the budget set for ad group or keywords of specific campaign.
+10701,The BiddableAdGroupCriterion already exists for NegativeAdGroupCriterion and vice versa.
+10702,"The name you specified for a keyword with match type already exists in the campaign/ad group, cannot be duplicated."
+10900,Invalid platformType.
+10901,Invalid device preference setting. It is only valid in Unified Campaign.
+20101,The operation is missing a required field or parameter or the value is empty.
+20102,The operation requires array.
+20103,Number of elements exceed maximum allowed. Please reduce the size of your request and submit it again.
+20104,Specified list/container must not contain any null elements You must provide at least one valid object in this operation
+20105,The operation requires associative array (hash).
+20401,An element of added entity is duplicated with existing entity.
+20601,The number value is incorrect for this parameter.
+20602,A money amount was greater than the minimum allowed.
+20603,A money amount was greater than the maximum allowed.
+20604,Invalid increments for budget amount.
+20701,The string value is incorrect for this parameter.
+20702,The string has too few characters.
+20703,The string has too many characters.
+20901,The date value is incorrect for this parameter. The string date's format should be yyyymmdd.
+20902,Date is before the date range.
+20903,Date is after the date range.
+21001,Your request contains an enumeration type value that is not valid.
+21301,Specified target type cannot be set to the campaign.
+21401,The IDs or cliterionUse you provided is not valid. This error may also result if you have specified an enddate which is earlier than the start date.
+21601,The url or destinationUrl in your request appears to be malformed or incomplete. Please check it.
+120001,Request does not exist.
+120003,The number format is invalid.
+120016,The number is larger.
+120017,The number is small.
+120018,The same Ad Group ID in the array.
+120022,Data does not exist.
+120027,Array is two or more.
+210605,Data Auto Insertion has been selected for App ad support.
+210300,"Bid type or Auto Bidding ID is not set, or both Bid type and Auto Bidding ID are set."
+210301,Designating the Auto bidding that in updating or deleted mode.
+210302,Designating the Auto bidding that is related to conversion.
+210303,Conversion tracking is not valid.
+210304,Conversion performance is not enough.
+210305,"Setting the Auto Bidding of ""Target CPC"" or ""Maximize conversions"" to campaign, when Bid settings are made to keywords."
+210306,Conversion optimizer is not available.
+210307,Set the budget higher than the budget set in Ad Group and/or Keyword.
+210308,"Cannot set Auto Bidding when Campaign is not ""ACTIVE""."
+210309,"Cannot set Auto Bidding when Campaign is not ""MANUAL_CPC""."
+210310,Bid type does not match.
+210403,Conversion is not enough.Conversion related bidding strategy has been set in Mobile app download campaign for iOS.
+210400,Cannot set both Bidding type and Auto bidding ID.
+210401,Designating the Auto bidding that in updating or deleted mode.
+210402,Conversion tracking is not valid.
+210403,Conversion is not enough.Conversion related bidding strategy has been set in Mobile app download campaign for iOS.
+210404,"Setting the Auto Bidding of ""Target CPC"" or ""Maximize conversions"" to campaign, when Bid settings are made to keywords."
+210405,Please change the budget to avoid exceeding the limit.
+210406,Conversion optimizer is not available.
+210407,"Cannot set Auto Bidding when Campaign is not ""ACTIVE""."
+210408,"Cannot set Auto Bidding when Campaign is not ""MANUAL_CPC""."
+210409,It has exceeded the bid limit for Ad Group.
+210500,Cannot set both Bidding type and Auto bidding ID.
+210501,Designating the Auto bidding that in updating or deleted mode.
+210502,Conversion tracking is not valid.
+210503,Conversion performance is not enough.
+210504,"Setting the Auto Bidding of ""Target CPC"" or ""Maximize conversions"" to Campaign."
+210505,"Setting the Auto Bidding of ""Target CPC"" or ""Maximize conversions"" to Ad Group."
+210506,Designated keyword cannot be set for Auto bidding.
+210507,Please change the budget to avoid exceeding the limit.
+210508,"In order to update the Custom URL, keywords have to be ""APPROVED""."
+210509,Cannot set as bid keyword that is already set as negative keywords. Same for vice versa.
+210510,Designated keywords or match type is already exist in the Campaign or Ad Group.
+210511,Conversion optimizer is not available.
+210512,"Cannot set Auto Bidding when Campaign is not ""ACTIVE""."
+210513,"Cannot set Auto Bidding when Campaign is not ""MANUAL_CPC""."
+210517,Cannot set more than 10 keywords.
+210200,"Cannot delete because Auto Bidding is set to either Campaign, Ad Group, or Keyword."
+210201,Click minimum value is set higher value than maximum value.
+210202,Registered Auto Bidding type and requested Auto Bidding type does not match.

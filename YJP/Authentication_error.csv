@@ -1,0 +1,38 @@
+0001,"This error can result for a variety of reasons, typically because one of the parameter values in the request is wrong or invalid and the operation cannot be completed."
+0002,An internal error has occurred. Please try again later. If the problem persists please contact Yahoo! Japan API team for assistance. Be sure to include your SOAP Request and Response with your report.
+0003,Frequency limit exceeded. Please try your request again later.
+0004,Account cannot be accessed at this location. Please use the LocationService to retrieve the URL prefix for the colocation the account is assigned to.
+0005,You have exceeded the daily operation quota for this web service. The daily quota is reset at midnight in JST.
+0006,The soap header is missing required parameter.
+0007,The number value is incorrect for this parameter.
+0008,The string value is incorrect for this parameter.
+0009,Your request contains an enumeration type value that is not valid.
+0010,You have submitted an invalid ID. One of the ID indicated in the request was not found. This error may also result if onBehalfOfAccountId is not associated with the accountId which is in your request. Check the ID.
+0011,The given apiAccountId could not log in. This could happen because of an incorrect apiAccountPassword or does not match the license in the request header.
+0011,The given OnBehalfOfAccountId could not log in. This could happen because of an incorrect OnBehalfOfPassword or does not match the accountId in the request header.
+0012,The accountId or onBehalfOfAccountId indicated in the request is not active.
+0013,The operation is not available. This error may also result if you specified a operation which does not exist. Check the operator.
+0014,The selector is invalid. This error result if you specified multiple selector in your request body. Check the operator.
+0015,The operation is invalid. This error result if you specified multiple operation in your request body. Check the operator.
+0016,This service does not support mutate operation.
+0017,Number of elements exceed maximum allowed in this object. Please reduce the size of your list based request and submit it again.
+0018,The request failed because the requested size was too large. Adjust the data range or parameter and retry the request again.
+0050,Number of items are too many.
+0051,Number of items are too little.
+0052,The number of values are too many.
+0053,The number of values are too little.
+0054,The number of values are too long.
+0055,The number of values are too short.
+0056,The number is too large.
+0057,The number is too small.
+0058,The vlaues are duplicate.
+0059,The same values are already set. Please set in different value.
+0060,The date format is not valid.
+0061,The setting is out from the limited range
+0062,The relations is not valid.
+0063,The setting is over the limit.
+0064,URL that been set is not valid.
+0065,The step value is not valid.
+0066,Date has been set before the possible date range.
+0067,Date has been set after the possible date range.
+0099,It is under maintenance. API cannot be used.

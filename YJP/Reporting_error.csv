@@ -1,0 +1,24 @@
+2,An internal error has occurred. Please try again later. If the problem persists please contact Yahoo! JAPAN API team for assistance. Be sure to include your SOAP Request and Response with your report.
+30001,The error occurs when you create 31st report definitions. The limitation of report definitions you can store is 30. Please check and remove old report definitions.
+30101,The error occurs when you create 51st ONE TIME report job.The limitation of ONE TIME report job ID you can store is 50.Please check and remove old report job.
+40001,The operation is missing a required field or parameter or the value is empty.
+40002,The operation requires array.
+40003,Number of elements exceed maximum allowed. Please reduce the size of your request and submit it again.
+40004,Specified list/container must not contain any null elements. You must provide at least one valid object in this operation
+40011,The number value is incorrect for this parameter.
+40012,The number is too small.
+40013,The number is too big.
+40021,The string value is incorrect for this parameter.
+40022,The string has too few characters.
+40023,The string has too many characters.
+40024,The url or destinationUrl in your request appears to be malformed or incomplete. Please check it.
+40026,The name element for this object contains one or more illegal characters.
+40031,Date is before allowed minimum.Date is after allowed maximum.
+40032,Date is outside of allowed range.
+40041,Your request contains an enumeration type value that is not valid.
+40051,This fault usually occurs when you have specified an enddate which is earlier than the start date.
+40100,Report delete procedure is made during report creation.
+60003,The error occurs when the report ID you specified does not exixt.
+60004,The error occurs when you deleted report definitions of the active report job.
+2,An internal error has occurred. Please try again later. If the problem persists please contact Yahoo! Japan API team for assistance. Be sure to include your SOAP Request and Response with your report.
+40004,Specified list/container must not contain any null elements You must provide at least one valid object in this operation

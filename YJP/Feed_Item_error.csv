@@ -1,0 +1,21 @@
+210101,URL format in LINK_URL from FeedItemService is invalid. This error occur when adding the FeedItem information on QUICKLINK.
+210102,Phone number in CALL_PHONE_NUMBER from FeedItemService is invalid. This error occur when adding the FeedItem information on CALLEXTENSION.
+210103,"Combination of placeholderType and feedItemId is not correct. For example, defining CALLEXTENSION in feedItemId for QUICKLINK in placeholderType in CampaignFeedSerivce or AdGroupFeedService."
+210104,Making SET in FeedAttributeValue during the APPROVED_WITH_REVIEW or REVIEW status in FeedItemService.
+210105,Date format is invalid.
+210106,Date is too short.
+210107,Date is too long.
+210108,Number is too small.
+210109,Number is too big.
+210110,Targeting is invalid.
+210111,Please select different value to register.
+210112,Were not able to delete the targeting.
+210103,Were not able to change the bid multiplier.
+210126,Connection to Data Auto Insertion has been attempted for Mobile app download.
+20103,The element count exceeded the maximum.
+120002,Value is invalid.
+120018,Value is overlapped. Please use different value.
+120022,Invalid ID has been specified.
+120024,Relation is invalid.
+210103,Inappropriate combination of placeholderType and feedItemId.
+210127,Connection to Feed item has been attempted for Mobile app download.

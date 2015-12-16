@@ -1,0 +1,7 @@
+20410003,Account ID is required.
+20410004,You have submitted an invalid account ID.
+20410005,Account IDs exceed maximum allowed.
+20410006,You have submitted invalid account IDs. One of the account ID indicated in the request is not valid.
+20410007,One of the account IDs indicated in the request was not found. Check your account IDs
+20410008,This operation is not applicable for account which choose payment type is invoice.
+20410009,The operation failed to get account balance.

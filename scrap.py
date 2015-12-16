@@ -1,5 +1,6 @@
 import sys
 import csv
+from collections import OrderedDict
 from BeautifulSoup import BeautifulSoup, SoupStrainer
 from urllib2 import urlopen, URLError, HTTPError
 from argparse import ArgumentParser
@@ -11,6 +12,7 @@ SE_URL_MAP = {
     'baidu'     :   'http://dev2.baidu.com/sms_zh/en/Error_Code',
     'yandex'    :   'http://tech.yandex.com/direct/doc/dg-v4/reference/ErrorCodes-docpage/',
     'google'    :   'http://developers.google.com/adwords/api/docs/reference/v201509/AdGroupAdService.ApiError',
+    'yahoojp'   :   'https://github.com/yahoojp-marketing/sponsored-search-api-documents/blob/master/docs/en/api_reference/appendix/errorcodes.md',
     }
 
 def parse_arguments():
@@ -103,6 +105,69 @@ def write_data_csv(outfilename, data):
     with open(outfilename, "wb") as outfile:
        wr = csv.writer(outfile)
        wr.writerows(data)
+
+def parse_yjp_rows(rows):
+    """ Get data from each row
+    """
+    results = []
+    for row in rows:
+        cols = row.findAll('td')
+        if cols:
+            # Handles cases where <td> has nested tags like <p>
+            code = ''.join(cols[0].findAll(text=True))
+            code = code.encode('utf8')
+            message = "".join(cols[2].findAll(text=True))
+            message = message.encode('utf8')
+            if message:
+                # Trim extra spaces/ newlines from code/ message
+                results.append([''.join(code.split()), ' '.join(message.split())])
+    return results
+
+def remove_dup(data):
+    """ Removes duplicates from a list
+    """
+    # make inner lists tuples and convert to set
+    b_set = set(tuple(x) for x in data)
+    # convert back to list
+    b = [list(x) for x in b_set]
+    # sort in original order
+    b.sort(key = lambda x: data.index(x))
+    return b
+
+def scrap_yahoo_jp(soup, filename):
+    """ Scraps Error codes for Yahoo JP
+    """
+    names = soup.findAll('h4')
+    errornames = []
+    for name in names:
+        n = ''.join(name.findAll(text=True))
+        n = n.encode('utf8')
+        errornames.append('_'.join(n.split()))
+    print errornames
+    # Number of tables to scrap for errornames
+    span = [1,1,1,5,2,1,1,3,3]
+    tables = soup.findAll('table')
+    start = 0
+    i = 0
+    alldata = []
+    # Scrap data from each table
+    for d in span:
+        end = start+d
+        dataset = []
+        for table in tables[start:end]:
+            rows = table.findAll('tr')
+            data = parse_yjp_rows(rows[1:])
+            dataset.append(data)
+        dataset = reduce(lambda x,y: x+y, dataset)
+        #dataset = remove_dup(dataset)
+        alldata.append(dataset)
+        outfile = filename+str(errornames[i])
+        write_data_csv(outfile, dataset)
+        start = end
+        i = i+1
+    alldata = reduce(lambda x,y: x+y, alldata)
+    write_data_csv(filename+'yjp_all_dump', alldata)
+# End of def scrap_yahoo_jp
 
 def scrap_google(soup, filename):
     """ Scraps Error codes for Google Adwords
@@ -218,6 +283,7 @@ SE_FUNCTION_DICT = {
     'baidu'     :   scrap_baidu,
     'yandex'    :   scrap_yandex,
     'google'    :   scrap_google,
+    'yahoojp'     :   scrap_yahoo_jp,
     }
 
 def main():
